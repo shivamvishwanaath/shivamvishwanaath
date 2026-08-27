@@ -44,37 +44,6 @@ I am a **Tech Lead & Full-Stack Systems Architect** specializing in building hig
 
 ---
 
-## 📈 Impact at a Glance
-
-<div align="center">
-<table>
-<tr>
-<td align="center" width="20%">
-  <strong>6+</strong><br />
-  <sub>Production Platforms<br/>Architected & Deployed</sub>
-</td>
-<td align="center" width="20%">
-  <strong>46</strong><br />
-  <sub>Public Repositories<br/>on GitHub</sub>
-</td>
-<td align="center" width="20%">
-  <strong>70+</strong><br />
-  <sub>Five-Star Reviews<br/>Google Play Store</sub>
-</td>
-<td align="center" width="20%">
-  <strong>9.3K+</strong><br />
-  <sub>Peak Concurrent Users<br/>@ 99% Uptime</sub>
-</td>
-<td align="center" width="20%">
-  <strong>250+</strong><br />
-  <sub>Blood Units Collected<br/>Single-Day NSS Record</sub>
-</td>
-</tr>
-</table>
-</div>
-
----
-
 ## 🛠️ Tech Stack & Arsenal
 
 <div align="center">
@@ -179,35 +148,10 @@ I am a **Tech Lead & Full-Stack Systems Architect** specializing in building hig
 
 ---
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=shivamvishwanaath&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" />
-</div>
-
----
-
 ## 📊 GitHub Analytics & Telemetry
 
 <div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <img height="180em" src="https://github-readme-stats.vercel.app/api?username=shivamvishwanaath&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=false" alt="Shivam's GitHub Stats" />
-      </td>
-      <td>
-        <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivamvishwanaath&layout=compact&theme=radical&hide_border=false" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
-  <br />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=shivamvishwanaath&theme=radical&hide_border=false" alt="GitHub Streak" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shivamvishwanaath&theme=react-dark&hide_border=true&area=true" alt="Contribution Graph" />
 </div>
 
 <br />
@@ -219,16 +163,6 @@ I am a **Tech Lead & Full-Stack Systems Architect** specializing in building hig
     <img alt="github-snake" src="https://raw.githubusercontent.com/shivamvishwanaath/shivamvishwanaath/output/github-snake.svg" />
   </picture>
 </div>
-
----
-
-## ⚡ Fun Facts
-
-- 🎮 Coding since **2020** — started with Java Android apps and fell in love with full-stack web platforms.
-- 🧪 Engineered a native **Periodic Table Android App** that serves students across India with sub-10ms element lookups (70+ five-star reviews).
-- 🩸 Organized the largest single-day **blood donation drive** in university NSS history (mobilized 80+ volunteers, 250+ units).
-- 🌲 Outside of software, I'm reading about distributed cloud scalability or hiking around Jharkhand's trails.
-- 🎯 **2026 Focus:** Scaling diagnostic testing algorithms to support 10,000+ concurrent users with sub-200ms evaluation latency.
 
 ---
 
