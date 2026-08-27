@@ -222,6 +222,16 @@ I am a **Tech Lead & Full-Stack Systems Architect** specializing in building hig
 
 ---
 
+## ⚡ Fun Facts
+
+- 🎮 Coding since **2020** — started with Java Android apps and fell in love with full-stack web platforms.
+- 🧪 Engineered a native **Periodic Table Android App** that serves students across India with sub-10ms element lookups (70+ five-star reviews).
+- 🩸 Organized the largest single-day **blood donation drive** in university NSS history (mobilized 80+ volunteers, 250+ units).
+- 🌲 Outside of software, I'm reading about distributed cloud scalability or hiking around Jharkhand's trails.
+- 🎯 **2026 Focus:** Scaling diagnostic testing algorithms to support 10,000+ concurrent users with sub-200ms evaluation latency.
+
+---
+
 ## 🤝 Let's Connect
 
 <div align="center">
