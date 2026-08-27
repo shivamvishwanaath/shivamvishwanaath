@@ -179,6 +179,14 @@ I am a **Tech Lead & Full-Stack Systems Architect** specializing in building hig
 
 ---
 
+## 🏆 GitHub Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=shivamvishwanaath&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" />
+</div>
+
+---
+
 ## 📊 GitHub Analytics & Telemetry
 
 <div align="center">
@@ -194,6 +202,22 @@ I am a **Tech Lead & Full-Stack Systems Architect** specializing in building hig
   </table>
   <br />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=shivamvishwanaath&theme=radical&hide_border=false" alt="GitHub Streak" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shivamvishwanaath&theme=react-dark&hide_border=true&area=true" alt="Contribution Graph" />
+</div>
+
+<br />
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shivamvishwanaath/shivamvishwanaath/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shivamvishwanaath/shivamvishwanaath/output/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/shivamvishwanaath/shivamvishwanaath/output/github-snake.svg" />
+  </picture>
 </div>
 
 ---
