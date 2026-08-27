@@ -3,7 +3,7 @@
 # Hi there, I'm Shivam Vishwanaath 👋
 ### Tech Lead & Full-Stack Systems Architect
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Tech+Lead+%40+Trans+Ed;Full-Stack+Architect+%E2%80%A2+DevOps+%E2%80%A2+Cloud+Hosting;TypeScript+%E2%80%A2+React+%E2%80%A2+Next.js+%E2%80%A2+Node.js;Ubuntu+Linux+VPS+%E2%80%A2+Caddy+%E2%80%A2+Docker+%E2%80%A2+PM2;Building+Scalable+Production+Systems)](https://shivamvishwanaath.dev)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=0ea5e9&center=true&vCenter=true&width=650&lines=Tech+Lead+%40+Trans+Ed;Full-Stack+Architect+%E2%80%A2+DevOps+%E2%80%A2+Cloud+Hosting;TypeScript+%E2%80%A2+React+%E2%80%A2+Next.js+%E2%80%A2+Node.js;Ubuntu+Linux+VPS+%E2%80%A2+Caddy+%E2%80%A2+Docker+%E2%80%A2+PM2;Building+Scalable+Production+Systems)](https://shivamvishwanaath.dev)
 
 <p align="center">
   <a href="https://shivamvishwanaath.dev"><img src="https://img.shields.io/badge/Website-shivamvishwanaath.dev-0ea5e9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
@@ -12,23 +12,66 @@
   <a href="https://www.instagram.com/shivamvishwanaath/"><img src="https://img.shields.io/badge/Instagram-@shivamvishwanaath-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=shivamvishwanaath&color=0ea5e9&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+</p>
+
 </div>
 
 ---
 
 ## 👨‍💻 About Me
 
-I am a **Tech Lead & Full-Stack Systems Architect** specializing in architecting scalable web platforms, diagnostic assessment engines, and managing bare-metal Linux (Ubuntu VPS) cloud infrastructure.
+I am a **Tech Lead & Full-Stack Systems Architect** specializing in building high-concurrency web platforms, automated assessment diagnostics, and managing bare-metal Linux cloud infrastructure.
 
-- 💼 **Current Role:** Tech Lead at **Trans Ed** directing the engineering roadmap for **CBSEForum**, **BITSATForum**, and **Tutors Forum**.
-- 🎓 **Academic Pedigree:** 
+- 💼 **Current Role:** Tech Lead at **Trans Ed** — directing the engineering roadmap and software architecture for 3 production EdTech platforms serving students and educators across India.
+- 🎓 **Academic Credentials:** 
   - **MBA in Data Science** — *Amity Online* (2025–2027)
   - **B.Tech in Electronics & Communication Engineering** — *Birla Institute of Technology (BIT Mesra)* (2021–2025)
-- 🚀 **Core Expertise:** End-to-end full-stack development (TypeScript, React, Next.js, Node.js, PostgreSQL, MongoDB) paired with production DevOps (Ubuntu VPS, Caddy Reverse Proxy, PM2 process clustering, Docker).
-- 🔬 **Algorithmic Focus:** Designing weak-area diagnosis algorithms, real-time response telemetry, and automated financial billing ledgers.
-- 🩸 **Community Leadership:** NSS Event Head (led 250+ units record blood donation drive, taught 130+ underprivileged village children) & President of EPAC.
-- 💬 **Ask me about:** Web architecture, Linux VPS hardening, Caddy SSL automation, database schema design, and scaling Next.js apps.
+- 🚀 **Production Scale & Shipped Work:** Shipped **6+ production web applications and portals** end-to-end: handling database design, REST APIs, responsive frontend engineering, and Linux VPS system hardening.
+- 📱 **Published Mobile Apps:** Native Android developer with utilities published on the Google Play Store, including a chemistry resource carrying **70+ five-star reviews** and 100% offline-first performance.
+- 🩸 **Community Leadership:** Event Head at NSS (led university blood donation drive collecting a record **250+ units in 24 hours** and directed weekend education cycles teaching **130+ underprivileged village children**), and President of the Environmental Protection & Awareness Club (EPAC).
+- 💬 **Ask me about:** Systems architecture, VPS hosting, auto SSL configuration, database schema design, and scaling JavaScript/TypeScript codebases.
 - 📫 **Reach Me:** [shivam.strive@gmail.com](mailto:shivam.strive@gmail.com) • [shivamvishwanaath.dev](https://shivamvishwanaath.dev)
+
+---
+
+## 🔭 What I'm Currently Building
+
+- 🏗️ **[shivamvishwanaath.dev](https://shivamvishwanaath.dev)** — My interactive portfolio showcasing a draggable Crime Investigation Pinboard with red-string corkboard, UV blacklight mode, and act-based story navigation.
+- 📝 **Technical Field Notes** — Sharing engineering debriefs on Next.js 15 App Router design, bare-metal Caddy SSL configurations, and EdTech algorithms at [shivamvishwanaath.dev/blog](https://shivamvishwanaath.dev/blog).
+- 📊 **Diagnostic Assessment Engine v2** — Developing a next-gen weak-area clustering algorithm to generate real-time feedback loops for adaptive testing simulators.
+
+---
+
+## 📈 Impact at a Glance
+
+<div align="center">
+<table>
+<tr>
+<td align="center" width="20%">
+  <strong>6+</strong><br />
+  <sub>Production Platforms<br/>Architected & Deployed</sub>
+</td>
+<td align="center" width="20%">
+  <strong>46</strong><br />
+  <sub>Public Repositories<br/>on GitHub</sub>
+</td>
+<td align="center" width="20%">
+  <strong>70+</strong><br />
+  <sub>Five-Star Reviews<br/>Google Play Store</sub>
+</td>
+<td align="center" width="20%">
+  <strong>9.3K+</strong><br />
+  <sub>Peak Concurrent Users<br/>@ 99% Uptime</sub>
+</td>
+<td align="center" width="20%">
+  <strong>250+</strong><br />
+  <sub>Blood Units Collected<br/>Single-Day NSS Record</sub>
+</td>
+</tr>
+</table>
+</div>
 
 ---
 
@@ -103,6 +146,32 @@ I am a **Tech Lead & Full-Stack Systems Architect** specializing in architecting
       </ul>
       <p align="center">
         <a href="https://shivamvishwanaath.dev/projects/nm-foundation"><b>View Project Details →</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🎪 JoharNite Fest Portal</h3>
+      <p><b>Tech Stack:</b> <code>React</code> <code>Firebase Hosting</code> <code>MERN</code></p>
+      <ul>
+        <li>Event registration and contestant ticketing portal for the annual cultural festival.</li>
+        <li>Successfully managed traffic spikes of <b>9,300+ concurrent visitors at 99% uptime</b>.</li>
+        <li>Optimized database write performance during peak contestant registrations.</li>
+      </ul>
+      <p align="center">
+        <a href="https://shivamvishwanaath.dev/projects/joharnite-qeds-conference"><b>View Project Details →</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🕵️‍♂️ shivamvishwanaath.dev</h3>
+      <p><b>Tech Stack:</b> <code>Next.js</code> <code>TypeScript</code> <code>Tailwind</code> <code>Framer Motion</code></p>
+      <ul>
+        <li>Interactive high-performance casebook portfolio built using modern UX animations.</li>
+        <li>Interactive draggable zoomable Crime Pinboard canvas with custom non-passive event listeners.</li>
+        <li>Optimized statically (SSG) with structured JSON-LD schemas and dynamic sitemap.</li>
+      </ul>
+      <p align="center">
+        <a href="https://shivamvishwanaath.dev/"><b>Inspect Portfolio Live →</b></a>
       </p>
     </td>
   </tr>
