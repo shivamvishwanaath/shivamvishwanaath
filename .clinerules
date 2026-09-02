@@ -1,0 +1,24 @@
+﻿# Project Rules — shivam-vishwanaath (token-efficiency protocol)
+
+## Knowledge base FIRST (mandatory)
+1. At the START of every task, read `.knowledge-base/INDEX.md` (it routes you).
+2. Then open ONLY the specific KB doc(s) the task needs — never bulk-read the source tree to
+   "re-understand" the project; the KB already encodes it.
+3. Open an individual source file only when editing it, or when the KB lacks detail.
+   If you discover missing/incorrect KB info, FIX the KB doc in the same session.
+
+## Environment
+- Windows + PowerShell workspace. Package manager: **pnpm** (bun.lock is vestigial; bun is not installed).
+- Common: `pnpm dev`, `pnpm lint` (build skips ESLint), `pnpm build`, `node scripts/generate-favicons.mjs`.
+- Full-repo AI context on demand: run `repomix` in the root (creates repomix-output.xml);
+  prefer scoped runs e.g. `repomix --include "app,components,lib"`.
+
+## Conventions
+- Follow `.knowledge-base/05-conventions.md` strictly (styling palette, crime-tape class, SEO checklist,
+  client/server component split, named exports).
+- Content changes go in `lib/*.ts` data files, not hardcoded JSX.
+
+## Definition of done
+- `pnpm lint` clean (or justified exceptions) and `pnpm build` passing for code changes.
+- Relevant `.knowledge-base/` docs updated whenever routes/components/lib structure/content model change.
+- Never commit `.env*`; never modify `.next/` or `node_modules/`.

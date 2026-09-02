@@ -1,0 +1,520 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@layer base {
+  body {
+    background-color: #0f0f0f;
+    color: #e0e0e0;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+}
+
+/* Custom sleek dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0f0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff2e2e;
+}
+
+/* ---- Blog code highlighting (rehype-highlight) — dossier dark theme ---- */
+.hljs { color: #e2e2e2; background: transparent; }
+.hljs-comment, .hljs-quote { color: #8a8a8a; font-style: italic; }
+.hljs-keyword, .hljs-selector-tag, .hljs-literal { color: #ff6b6b; }
+.hljs-string, .hljs-regexp, .hljs-addition { color: #86efac; }
+.hljs-number, .hljs-built_in, .hljs-attr { color: #67e8f9; }
+.hljs-title.function_, .hljs-function .hljs-title { color: #fcd34d; }
+.hljs-title.class_, .hljs-type, .hljs-class .hljs-title { color: #fda4af; }
+.hljs-variable, .hljs-template-variable, .hljs-subst { color: #e2e2e2; }
+.hljs-meta, .hljs-punctuation { color: #a3a3a3; }
+.hljs-deletion { color: #fca5a5; }
+.hljs-emphasis { font-style: italic; }
+.hljs-strong { font-weight: 700; }
+
+/* Custom visible scrollbar for horizontal mobile navigation */
+.dossier-scrollbar::-webkit-scrollbar {
+  height: 4px;
+}
+
+.dossier-scrollbar::-webkit-scrollbar-track {
+  background: #141414;
+  border-radius: 2px;
+}
+
+.dossier-scrollbar::-webkit-scrollbar-thumb {
+  background: #b91c1c; /* red-700 */
+  border-radius: 2px;
+}
+
+.dossier-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #ef4444; /* red-500 */
+}
+
+/* ---- Global Light Mode Dossier Styling Overrides ---- */
+html.light body {
+  background-color: #f7f5f0;
+  color: #262626;
+}
+
+html.light ::-webkit-scrollbar-track {
+  background: #f7f5f0;
+}
+
+html.light ::-webkit-scrollbar-thumb {
+  background: #d4cfc3;
+}
+
+/* Site Navigation Header */
+html.light header,
+html.light header.bg-\[\#0a0a0a\]\/95 {
+  background-color: rgba(245, 241, 232, 0.95) !important;
+  border-color: #d1cbc0 !important;
+  color: #262626 !important;
+}
+
+html.light header span.text-white {
+  color: #111111 !important;
+}
+
+html.light header button.bg-neutral-900,
+html.light header button.bg-neutral-900:hover,
+html.light header .bg-neutral-900 {
+  background-color: #eae5d8 !important;
+  border-color: #d1cbc0 !important;
+  color: #262626 !important;
+}
+
+/* Navigation Links */
+html.light nav a.text-neutral-400 {
+  color: #525252 !important;
+}
+
+html.light nav a.text-neutral-400:hover {
+  color: #111111 !important;
+  background-color: #eae5d8 !important;
+}
+
+html.light nav a.bg-neutral-800 {
+  background-color: #eae5d8 !important;
+  color: #111111 !important;
+  border-color: #c4beb3 !important;
+}
+
+/* Drawer mobile menu */
+html.light header div.lg\:hidden.bg-\[\#0e0e0e\],
+html.light header .bg-\[\#0e0e0e\] {
+  background-color: #eae5d8 !important;
+  border-color: #d1cbc0 !important;
+}
+
+html.light header div.lg\:hidden.bg-\[\#0e0e0e\] a.text-neutral-300 {
+  color: #262626 !important;
+}
+
+html.light header div.lg\:hidden.bg-\[\#0e0e0e\] a.text-neutral-300:hover {
+  background-color: #ded9cd !important;
+}
+
+
+/* Overriding bottom recruiter callout */
+html.light main .from-red-950\/60,
+html.light main .bg-gradient-to-r.from-red-950\/60 {
+  background-image: linear-gradient(to right, rgba(239, 68, 68, 0.08), #ffffff, #ffffff) !important;
+  border-color: rgba(239, 68, 68, 0.4) !important;
+  color: #262626 !important;
+}
+
+/* Overriding text white headers */
+html.light .text-white,
+html.light main h1,
+html.light main h2,
+html.light main h3,
+html.light main h4,
+html.light main h5,
+html.light main span.text-white {
+  color: #111111 !important;
+}
+
+/* Overriding description and paragraph text shades */
+html.light .text-neutral-400,
+html.light .text-neutral-300,
+html.light .text-neutral-500,
+html.light main p,
+html.light main span.text-neutral-300,
+html.light main span.text-neutral-400 {
+  color: #4a4a4a !important;
+}
+
+html.light main:not([data-board]) .text-white,
+html.light main:not([data-board]) .text-neutral-100,
+html.light main:not([data-board]) .text-neutral-200,
+html.light main:not([data-board]) h1.text-white,
+html.light main:not([data-board]) h2.text-white,
+html.light main:not([data-board]) h3.text-white {
+  color: #111111 !important;
+}
+
+html.light .border-neutral-800,
+html.light .border-neutral-900,
+html.light .border-neutral-700,
+html.light .border-neutral-600,
+html.light .border-neutral-800\/80 {
+  border-color: #dcd7ca !important;
+}
+
+/* Badges and links */
+html.light .bg-red-500\/20 {
+  background-color: rgba(239, 68, 68, 0.1) !important;
+  color: #b91c1c !important;
+  border: 1px solid rgba(239, 68, 68, 0.2) !important;
+}
+
+html.light .bg-red-950 {
+  background-color: rgba(239, 68, 68, 0.1) !important;
+  border: 1px solid rgba(239, 68, 68, 0.2) !important;
+  color: #b91c1c !important;
+}
+
+html.light .bg-blue-950 {
+  background-color: rgba(59, 130, 246, 0.1) !important;
+  border: 1px solid rgba(59, 130, 246, 0.2) !important;
+  color: #1d4ed8 !important;
+}
+
+html.light .bg-amber-950 {
+  background-color: rgba(245, 158, 11, 0.1) !important;
+  border: 1px solid rgba(245, 158, 11, 0.2) !important;
+  color: #b45309 !important;
+}
+
+html.light .bg-emerald-950,
+html.light .bg-emerald-950\/80 {
+  background-color: rgba(16, 185, 129, 0.1) !important;
+  border: 1px solid rgba(16, 185, 129, 0.2) !important;
+  color: #047857 !important;
+}
+
+html.light .text-red-400,
+html.light main .text-red-400 {
+  color: #b91c1c !important;
+}
+
+html.light .text-red-400:hover,
+html.light main .text-red-400:hover {
+  color: #991b1b !important;
+}
+
+html.light .text-blue-400 {
+  color: #1d4ed8 !important;
+}
+
+html.light .text-amber-400 {
+  color: #b45309 !important;
+}
+
+html.light .text-emerald-400 {
+  color: #047857 !important;
+}
+
+html.light .bg-neutral-950 {
+  background-color: #f5f1e8 !important;
+  border-color: #dcd7ca !important;
+  color: #262626 !important;
+}
+
+/* Overriding the board page index link blocks specifically */
+html.light main .bg-red-950\/40,
+html.light main .bg-red-950\/30 {
+  background-color: rgba(239, 68, 68, 0.08) !important;
+  border-color: rgba(239, 68, 68, 0.3) !important;
+  color: #b91c1c !important;
+}
+
+html.light main .bg-red-950\/40 span,
+html.light main .bg-red-950\/40 p {
+  color: #991b1b !important;
+}
+
+/* Form inputs & Contact page fields */
+html.light input,
+html.light textarea,
+html.light select {
+  background-color: #ffffff !important;
+  border-color: #dcd7ca !important;
+  color: #111111 !important;
+}
+
+html.light input:focus,
+html.light textarea:focus {
+  border-color: #ef4444 !important;
+}
+
+/* Footer Section */
+html.light footer,
+html.light footer.bg-\[\#080808\],
+html.light footer.bg-\[\#050505\] {
+  background-color: #f5f1e8 !important;
+  border-color: #d1cbc0 !important;
+  color: #4a4a4a !important;
+}
+
+html.light footer .text-white {
+  color: #111111 !important;
+}
+
+html.light footer a {
+  color: #4a4a4a !important;
+}
+
+html.light footer a:hover {
+  color: #111111 !important;
+}
+
+html.light footer .bg-neutral-900 {
+  background-color: #eae5d8 !important;
+  border-color: #d1cbc0 !important;
+  color: #262626 !important;
+}
+
+html.light footer .bg-neutral-900:hover {
+  background-color: #ded9cd !important;
+  color: #111111 !important;
+}
+
+html.light footer .bg-red-950\/80 {
+  background-color: rgba(239, 68, 68, 0.15) !important;
+  border-color: rgba(239, 68, 68, 0.3) !important;
+  color: #b91c1c !important;
+}
+
+/* ============================================================ */
+/* HOMEPAGE LIGHT THEME OVERRIDES                                */
+/* ============================================================ */
+
+/* Phase 2: Hero Section Overrides */
+html.light .homepage-content section.bg-\[\#111111\] {
+  background-color: #ffffff !important;
+  border-color: #dcd7ca !important;
+}
+
+html.light .homepage-content .bg-neutral-900 {
+  background-color: #f5f1e8 !important;
+  border-color: #dcd7ca !important;
+}
+
+html.light .homepage-content a.bg-neutral-900,
+html.light .homepage-content button.bg-neutral-900 {
+  background-color: #eae5d8 !important;
+  border-color: #d1cbc0 !important;
+  color: #262626 !important;
+}
+html.light .homepage-content a.bg-neutral-900:hover,
+html.light .homepage-content button.bg-neutral-900:hover {
+  background-color: #ded9cd !important;
+}
+
+html.light .homepage-content .bg-neutral-900\/60 {
+  background-color: #f5f1e8 !important;
+  border-color: #dcd7ca !important;
+}
+html.light .homepage-content .bg-neutral-900\/60:hover {
+  background-color: #eae5d8 !important;
+  border-color: #c4beb3 !important;
+}
+
+/* Phase 3: Interactive Pinboard Showcase Overrides */
+html.light .homepage-content .from-\[\#1c0808\] {
+  background-image: linear-gradient(to bottom right, #fbfaf5, #f5f1e8, #eae5d8) !important;
+  background-color: #ffffff !important;
+  border-color: rgba(185, 28, 28, 0.3) !important;
+  color: #262626 !important;
+}
+
+html.light .homepage-content .bg-black\/60 {
+  background-color: #ffffff !important;
+  border-color: #dcd7ca !important;
+}
+html.light .homepage-content .bg-black\/60:hover {
+  border-color: rgba(239, 68, 68, 0.4) !important;
+}
+
+/* Phase 4: Featured Projects Overrides */
+html.light .homepage-content article.bg-\[\#111111\] {
+  background-color: #ffffff !important;
+  border-color: #dcd7ca !important;
+}
+
+/* Phase 5: Technical Arsenal Overrides */
+html.light .homepage-content .bg-neutral-900\/80 {
+  background-color: #f5f1e8 !important;
+  border-color: #dcd7ca !important;
+}
+
+/* Phase 6: Case File Index Overrides */
+html.light .homepage-content .bg-red-950\/40 {
+  background-color: rgba(239, 68, 68, 0.06) !important;
+  border-color: rgba(239, 68, 68, 0.25) !important;
+}
+html.light .homepage-content .bg-red-950\/40:hover {
+  background-color: rgba(239, 68, 68, 0.12) !important;
+}
+
+/* ================================================================= */
+/* INNER PAGES — UNIVERSAL LIGHT THEME                               */
+/* Guard: main:not([data-board]) excludes the investigation board    */
+/* ================================================================= */
+
+/* Dark card / section backgrounds */
+html.light main:not([data-board]) .bg-\[\#111111\],
+html.light main:not([data-board]) .bg-\[\#111\],
+html.light main:not([data-board]) .bg-\[\#0f0f0f\],
+html.light main:not([data-board]) .bg-\[\#0d0d0d\],
+html.light main:not([data-board]) .bg-\[\#0a0a0a\] {
+  background-color: #ffffff !important;
+  border-color: #dcd7ca !important;
+}
+
+/* Neutral dark backgrounds */
+html.light main:not([data-board]) .bg-neutral-900,
+html.light main:not([data-board]) .bg-neutral-900\/90,
+html.light main:not([data-board]) .bg-neutral-900\/80,
+html.light main:not([data-board]) .bg-neutral-900\/70,
+html.light main:not([data-board]) .bg-neutral-900\/60,
+html.light main:not([data-board]) .bg-neutral-900\/40 {
+  background-color: #f5f1e8 !important;
+  border-color: #dcd7ca !important;
+}
+
+html.light main:not([data-board]) .bg-neutral-800,
+html.light main:not([data-board]) .bg-neutral-800\/90,
+html.light main:not([data-board]) .bg-neutral-800\/80,
+html.light main:not([data-board]) .bg-neutral-800\/60 {
+  background-color: #eae5d8 !important;
+  border-color: #d1cbc0 !important;
+}
+
+/* Filter pill button text & Education coursework card item text */
+html.light main:not([data-board]) button.text-neutral-400,
+html.light main:not([data-board]) button.text-neutral-200,
+html.light main:not([data-board]) .bg-neutral-900\/70 span,
+html.light main:not([data-board]) .bg-neutral-900\/90 span {
+  color: #262626 !important;
+}
+
+html.light main:not([data-board]) .bg-neutral-700 {
+  background-color: #dcd7ca !important;
+}
+
+/* Semi-transparent black overlays */
+html.light main:not([data-board]) .bg-black\/40,
+html.light main:not([data-board]) .bg-black\/60,
+html.light main:not([data-board]) .bg-black\/80 {
+  background-color: #f5f1e8 !important;
+  border-color: #dcd7ca !important;
+}
+
+/* Dark gradient sections */
+html.light main:not([data-board]) .from-\[\#1c0808\],
+html.light main:not([data-board]) .from-\[\#111111\],
+html.light main:not([data-board]) .from-\[\#0a0a0a\],
+html.light main:not([data-board]) .from-\[\#120808\] {
+  background-image: none !important;
+  background-color: #f5f1e8 !important;
+}
+
+/* Borders */
+html.light main:not([data-board]) .border-neutral-800,
+html.light main:not([data-board]) .border-neutral-800\/80,
+html.light main:not([data-board]) .border-neutral-700,
+html.light main:not([data-board]) .border-neutral-900 {
+  border-color: #dcd7ca !important;
+}
+
+/* Tag / badge / chip pills */
+html.light main:not([data-board]) span.bg-neutral-900,
+html.light main:not([data-board]) span.bg-neutral-800,
+html.light main:not([data-board]) .rounded.bg-neutral-900,
+html.light main:not([data-board]) .rounded.bg-neutral-800 {
+  background-color: #eae5d8 !important;
+  border-color: #d1cbc0 !important;
+  color: #4a4a4a !important;
+}
+
+/* Skill level badges */
+html.light main:not([data-board]) .bg-red-950\/80,
+html.light main:not([data-board]) .bg-amber-950\/80,
+html.light main:not([data-board]) .bg-blue-950\/80,
+html.light main:not([data-board]) .bg-emerald-950\/80,
+html.light main:not([data-board]) .bg-cyan-950\/80,
+html.light main:not([data-board]) .bg-purple-950\/80 {
+  background-color: #eae5d8 !important;
+  border-color: #d1cbc0 !important;
+  color: #4a4a4a !important;
+}
+
+/* Skills page: progress track bar */
+html.light main:not([data-board]) .h-2.bg-neutral-800,
+html.light main:not([data-board]) .h-2.rounded-full.bg-neutral-800 {
+  background-color: #dcd7ca !important;
+}
+
+/* Project/experience stamp badges */
+html.light main:not([data-board]) .bg-red-900\/60 {
+  background-color: rgba(185, 28, 28, 0.12) !important;
+  border-color: rgba(185, 28, 28, 0.3) !important;
+}
+
+/* Blog / prose content */
+html.light main:not([data-board]) .prose,
+html.light main:not([data-board]) .prose p,
+html.light main:not([data-board]) .prose li,
+html.light main:not([data-board]) .prose blockquote {
+  color: #262626 !important;
+}
+
+html.light main:not([data-board]) .prose strong,
+html.light main:not([data-board]) .prose-invert strong,
+html.light .prose strong,
+html.light .prose-invert strong,
+html.light strong {
+  color: #111111 !important;
+}
+
+html.light main:not([data-board]) .prose code,
+html.light main:not([data-board]) .prose pre {
+  background-color: #f5f1e8 !important;
+  color: #262626 !important;
+  border-color: #dcd7ca !important;
+}
+
+html.light main:not([data-board]) .prose h1,
+html.light main:not([data-board]) .prose h2,
+html.light main:not([data-board]) .prose h3,
+html.light main:not([data-board]) .prose h4 {
+  color: #111111 !important;
+}
+
+/* Hover border effects */
+html.light main:not([data-board]) .hover\:border-red-500\/40:hover {
+  border-color: rgba(185, 28, 28, 0.4) !important;
+}
+html.light main:not([data-board]) .hover\:border-red-500\/80:hover {
+  border-color: rgba(185, 28, 28, 0.6) !important;
+}
+
+/* Hover background effects on clickable cards */
+html.light main:not([data-board]) .hover\:bg-neutral-800\/80:hover {
+  background-color: #eae5d8 !important;
+}
+
