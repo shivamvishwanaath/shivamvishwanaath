@@ -12,6 +12,14 @@ export const SOCIAL_LINKS = {
   emailHref: 'mailto:shivam.strive@gmail.com',
 };
 
+export const COMPANY_DOMAINS = {
+  primary: 'https://thesci.co.in',
+  secondary: 'https://thesci.co',
+  heliosPanel: 'https://he.thesci.co',
+  mailPortal: 'https://mail.thesci.co',
+  calendarPortal: 'https://cal.thesci.co',
+};
+
 export const DEFAULT_OG_IMAGE = `${SITE_URL}/images/shivam-vishwanaath-og.jpg`;
 
 // Freshness signal for structured data — evaluated at BUILD time.
@@ -22,6 +30,10 @@ export const SEO_KEYWORDS = [
   'Shivam Vishwanaath Founder',
   'Founder CEO The SCI SolCielo Innovacion',
   'The SCI SolCielo Innovacion Private Limited',
+  'thesci.co.in',
+  'thesci.co',
+  'he.thesci.co',
+  'The SCI Corporate India',
   'Helios Enterprise Cloud Platform',
   'MCA India incorporation 2026',
   'Tech Lead Shivam Vishwanaath',

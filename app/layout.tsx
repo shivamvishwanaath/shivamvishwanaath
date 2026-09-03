@@ -3,7 +3,7 @@ import './globals.css';
 import { SiteNavigation } from '@/components/SiteNavigation';
 import { SiteFooter } from '@/components/SiteFooter';
 import { JsonLd } from '@/components/JsonLd';
-import { getPersonSchema, getWebSiteSchema } from '@/lib/schemas';
+import { getPersonSchema, getWebSiteSchema, getCompanyOrganizationSchema } from '@/lib/schemas';
 import { 
   SITE_URL, 
   SITE_NAME, 
@@ -109,6 +109,7 @@ export default function RootLayout({
       <body className="min-h-screen bg-[#0a0a0a] text-[#e2e2e2] flex flex-col antialiased selection:bg-red-900 selection:text-white" suppressHydrationWarning>
         <JsonLd schema={getWebSiteSchema()} />
         <JsonLd schema={getPersonSchema()} />
+        <JsonLd schema={getCompanyOrganizationSchema()} />
         <SiteNavigation />
         <div className="flex-1 flex flex-col">
           {children}

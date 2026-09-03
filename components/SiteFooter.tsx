@@ -12,7 +12,7 @@ import {
   Terminal,
   Heart
 } from 'lucide-react';
-import { SOCIAL_LINKS } from '@/lib/seo-content';
+import { SOCIAL_LINKS, COMPANY_DOMAINS } from '@/lib/seo-content';
 
 export const SiteFooter: React.FC = () => {
   const pathname = usePathname();
@@ -23,9 +23,9 @@ export const SiteFooter: React.FC = () => {
 
   return (
     <footer className="w-full bg-[#080808] border-t border-neutral-900 text-neutral-400 font-mono text-xs py-10 px-4 sm:px-6">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         {/* Brand Column */}
-        <div className="space-y-3 md:col-span-2">
+        <div className="space-y-3">
           <div className="flex items-center gap-2">
             <div className="w-6 h-6 rounded bg-red-950/80 border border-red-500/60 flex items-center justify-center text-red-500 font-bold text-[10px]">
               SV
@@ -34,7 +34,7 @@ export const SiteFooter: React.FC = () => {
               SHIVAM VISHWANAATH
             </span>
           </div>
-          <p className="text-neutral-400 font-sans text-xs max-w-sm leading-relaxed">
+          <p className="text-neutral-400 font-sans text-xs leading-relaxed">
             Founder &amp; CEO of The SCI SolCielo Innovacion Pvt. Ltd. Architecting the Helios Enterprise Cloud Platform and resilient Linux VPS cloud infrastructure.
           </p>
           <div className="flex items-center gap-3 pt-2">
@@ -73,6 +73,72 @@ export const SiteFooter: React.FC = () => {
               <Mail className="w-4 h-4" />
             </a>
           </div>
+        </div>
+
+        {/* Corporate Entity Column */}
+        <div className="space-y-2">
+          <div className="font-bold text-neutral-300 uppercase tracking-wider text-[11px] flex items-center gap-1.5">
+            <span className="w-1.5 h-1.5 rounded-full bg-red-500 inline-block"></span>
+            CORPORATE ENTITY
+          </div>
+          <ul className="space-y-1.5 text-xs font-sans">
+            <li>
+              <a
+                href={COMPANY_DOMAINS.primary}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-red-400 transition-colors flex items-center gap-1 text-white font-medium"
+                title="The SCI SolCielo Innovacion Private Limited — Official MCA Registered Entity"
+              >
+                The SCI (thesci.co.in)
+                <span className="text-[10px] text-red-500 font-mono">↗</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href={COMPANY_DOMAINS.secondary}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors flex items-center gap-1"
+                title="The SCI Global Enterprise Cloud & SaaS Solutions"
+              >
+                Global Cloud (thesci.co)
+                <span className="text-[10px] text-neutral-500 font-mono">↗</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href={COMPANY_DOMAINS.heliosPanel}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors flex items-center gap-1"
+                title="Helios Cloud Server Management Console"
+              >
+                Helios Panel (he.thesci.co)
+                <span className="text-[10px] text-neutral-500 font-mono">↗</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href={`${COMPANY_DOMAINS.secondary}#suites`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors"
+              >
+                CRM, HRMS & PM Suites
+              </a>
+            </li>
+            <li>
+              <a
+                href={`${COMPANY_DOMAINS.secondary}#trustsign`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors"
+              >
+                TrustSign E-Sign Engine
+              </a>
+            </li>
+          </ul>
         </div>
 
         {/* Case Navigation Links */}
@@ -151,7 +217,7 @@ export const SiteFooter: React.FC = () => {
 
       <div className="max-w-7xl mx-auto mt-8 pt-6 border-t border-neutral-900 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-neutral-500">
         <div suppressHydrationWarning>
-          © 2025 Shivam Vishwanaath. All rights reserved. Hosted on Ubuntu VPS with Caddy.
+          © 2026 Shivam Vishwanaath. All rights reserved. Hosted on Ubuntu VPS with Caddy.
         </div>
         <div className="flex items-center gap-1 font-mono">
           <ShieldAlert className="w-3.5 h-3.5 text-red-500" />

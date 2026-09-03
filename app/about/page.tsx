@@ -100,9 +100,13 @@ export default function AboutPage() {
             </p>
 
             <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 pt-2 text-xs text-neutral-400">
-              <a href="https://thesci.co" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-red-400 transition-colors">
+              <a href="https://thesci.co.in" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-red-400 transition-colors font-medium">
                 <Briefcase className="w-3.5 h-3.5 text-red-400" />
-                Founder @ The SCI SolCielo
+                The SCI (thesci.co.in)
+              </a>
+              <a href="https://thesci.co" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-red-400 transition-colors">
+                <ExternalLink className="w-3.5 h-3.5 text-neutral-400" />
+                Global Portal (thesci.co)
               </a>
               <span className="flex items-center gap-1">
                 <MapPin className="w-3.5 h-3.5 text-red-400" />
@@ -124,7 +128,7 @@ export default function AboutPage() {
           </h2>
           <div className="space-y-4 text-xs sm:text-sm text-neutral-300 font-sans leading-relaxed">
             <p>
-              Shivam Vishwanaath is the <strong>Founder & CEO of The SCI SolCielo Innovacion Private Limited™</strong> (founded 2019, registered with MSME Udyam Certificate in 2024, incorporated as Private Limited company with MCA India in Feb 2026), where he architected the <strong>Helios Enterprise Cloud Platform</strong> — a compiled Go + Fiber v2 engine replacing cPanel, Salesforce, Workday, Jira, Zendesk, and DocuSign with a self-hosted binary consuming ~15MB RAM idle.
+              Shivam Vishwanaath is the <strong>Founder & CEO of <a href="https://thesci.co.in" target="_blank" rel="noopener noreferrer" className="text-red-400 hover:underline">The SCI SolCielo Innovacion Private Limited™</a></strong> (corporate headquarters: <a href="https://thesci.co.in" target="_blank" rel="noopener noreferrer" className="hover:underline text-neutral-300">thesci.co.in</a>; international cloud platform: <a href="https://thesci.co" target="_blank" rel="noopener noreferrer" className="hover:underline text-neutral-300">thesci.co</a>; founded 2019, registered with MSME Udyam Certificate in 2024, incorporated as Private Limited company with MCA India in Feb 2026), where he architected the <strong>Helios Enterprise Cloud Platform</strong> — a compiled Go + Fiber v2 engine replacing cPanel, Salesforce, Workday, Jira, Zendesk, and DocuSign with a self-hosted binary consuming ~15MB RAM idle.
             </p>
             <p>
               As Tech Lead at Trans Ed, Shivam Vishwanaath has spearheaded the architectural design, database modeling, and server deployment of three premier educational portals: <strong>CBSEForum</strong> (comprehensive study platform for Classes 1–12), <strong>BITSATForum</strong> (diagnostic test series engine with real-time weak-area telemetry), and <strong>Tutors Forum</strong> (marketplace with automated session billing and ledger management).
@@ -172,7 +176,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-sm font-bold text-white">Community & Leadership</h3>
               <p className="text-xs text-neutral-400 font-sans leading-relaxed">
-                Led record 250+ blood units drive as NSS Event Head, educated 130+ village children, and directed EPAC environmental organization.
+                Led record 500+ units blood donation drive as NSS Event Head, educated 300+ village students across 8 remote hubs, and directed EPAC (100+ active members, 250+ alumni mentors).
               </p>
             </div>
           </div>

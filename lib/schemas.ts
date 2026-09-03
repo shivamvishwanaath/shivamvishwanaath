@@ -1,4 +1,4 @@
-import { SITE_URL, SITE_NAME, SOCIAL_LINKS, BUILD_DATE } from './seo-content';
+import { SITE_URL, SITE_NAME, SOCIAL_LINKS, BUILD_DATE, COMPANY_DOMAINS } from './seo-content';
 
 export function getPersonSchema() {
   return {
@@ -26,8 +26,14 @@ export function getPersonSchema() {
     worksFor: [
       {
         '@type': 'Organization',
+        '@id': `${COMPANY_DOMAINS.primary}/#organization`,
         name: 'The SCI SolCielo Innovacion Private Limited',
-        url: 'https://thesci.co',
+        alternateName: 'The SCI SolCielo',
+        url: COMPANY_DOMAINS.primary,
+        sameAs: [
+          COMPANY_DOMAINS.secondary,
+          'https://github.com/shivamvishwanaath',
+        ],
         foundingDate: '2026-02',
         description: 'IT company incorporated with MCA India in February 2026, creator of the Helios Enterprise Cloud Platform.',
       },
@@ -37,6 +43,12 @@ export function getPersonSchema() {
         url: 'https://transed.in',
       },
     ],
+    founder: {
+      '@type': 'Organization',
+      '@id': `${COMPANY_DOMAINS.primary}/#organization`,
+      name: 'The SCI SolCielo Innovacion Private Limited',
+      url: COMPANY_DOMAINS.primary,
+    },
     alumniOf: [
       {
         '@type': 'CollegeOrUniversity',
@@ -376,5 +388,38 @@ export function getArticleSchema(post: {
     dateModified: BUILD_DATE,
     author: { '@type': 'Person', '@id': `${SITE_URL}/#person`, name: SITE_NAME },
     publisher: { '@type': 'Person', '@id': `${SITE_URL}/#person` },
+  };
+}
+
+export function getCompanyOrganizationSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    '@id': `${COMPANY_DOMAINS.primary}/#organization`,
+    name: 'The SCI SolCielo Innovacion Private Limited',
+    alternateName: ['The SCI SolCielo', 'The SCI Innovacion', 'The SCI'],
+    url: COMPANY_DOMAINS.primary,
+    sameAs: [
+      COMPANY_DOMAINS.secondary,
+      'https://github.com/shivamvishwanaath',
+    ],
+    logo: `${COMPANY_DOMAINS.primary}/logo.png`,
+    foundingDate: '2026-02',
+    founder: {
+      '@type': 'Person',
+      '@id': `${SITE_URL}/#person`,
+      name: 'Shivam Vishwanaath',
+      jobTitle: 'Founder & CEO',
+      url: SITE_URL,
+    },
+    description: 'Autonomous enterprise cloud infrastructure, unified business application suites (CRM, HRMS, PM, Support, E-Sign), and custom software engineering solutions.',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'B7/10, BlueOffice Workspace, Kokar',
+      addressLocality: 'Ranchi',
+      addressRegion: 'Jharkhand',
+      postalCode: '834001',
+      addressCountry: 'IN',
+    },
   };
 }

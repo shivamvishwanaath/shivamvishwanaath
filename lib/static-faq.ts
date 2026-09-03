@@ -8,6 +8,27 @@ export interface FAQItem {
 
 export const STATIC_FAQS: FAQItem[] = [
   {
+    id: 'thesci-founder-helios',
+    category: 'TECH LEADERSHIP',
+    label: '🏢 The SCI & Helios Platform',
+    question: 'What is The SCI SolCielo Innovacion Private Limited and what enterprise platforms has Shivam Vishwanaath engineered?',
+    answerMarkdown: `### 🏢 CORPORATE DOSSIER: THE SCI SOLCIELO INNOVACION PRIVATE LIMITED™
+
+**Subject Shivam Vishwanaath** is the **Founder & CEO** of **[The SCI SolCielo Innovacion Private Limited™](https://thesci.co.in)** (corporate portal: [thesci.co.in](https://thesci.co.in); international cloud platform: [thesci.co](https://thesci.co)):
+
+* **Corporate Legal Status:** Founded 2019, registered with MSME Udyam Certificate in 2024, and formally incorporated as a Private Limited company by the **Ministry of Corporate Affairs (MCA India)** in February 2026.
+* **Flagship Innovation — Helios Enterprise Cloud Platform:** Architected a compiled Go + Fiber v2 server orchestration binary with an idle footprint of ~15MB RAM (90% lower than cPanel and Plesk), replacing $7,000+/month SaaS stacks.
+* **Unified Business Application Suites:**
+  * **[Helios Cloud Panel](https://he.thesci.co):** 17 modular capabilities including Caddy automated TLS, PowerDNS, Postfix mail clustering, and MariaDB pooling.
+  * **Helios-CRM:** Self-hosted Salesforce/HubSpot alternative with visual pipelines, PDF quote generation, and zero per-seat fees.
+  * **Helios-HRMS:** Workday/BambooHR replacement for payroll, leave approvals, and employee lifecycle with complete data sovereignty.
+  * **Helios-PM:** High-velocity Jira/Asana alternative rendering agile boards in under 50ms.
+  * **Helios-Support:** Zendesk alternative with automated SLA routing and knowledge base CMS.
+  * **TrustSign:** Tamper-evident SHA-256 cryptographic PDF e-signature engine replacing DocuSign.
+
+*Official Portals: [thesci.co.in](https://thesci.co.in) (Corporate Headquarters & Compliance) and [thesci.co](https://thesci.co) (Global Enterprise Solutions).*`
+  },
+  {
     id: 'trans-ed-tech-lead',
     category: 'TECH LEADERSHIP',
     label: '🏢 Trans Ed Tech Lead',

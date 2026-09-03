@@ -155,6 +155,27 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
               ))}
             </div>
           )}
+
+          {/* External Verified Links */}
+          {project.links && project.links.length > 0 && (
+            <div className="pt-3 border-t border-neutral-800/80 flex flex-wrap items-center gap-2.5">
+              <span className="text-[11px] font-bold text-neutral-400 uppercase tracking-wider">
+                OFFICIAL LINKS:
+              </span>
+              {project.links.map((link, lIdx) => (
+                <a
+                  key={lIdx}
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-red-950/40 hover:bg-red-900/60 border border-red-500/40 text-red-300 hover:text-white text-xs font-mono transition-colors group"
+                >
+                  <span>{link.label}</span>
+                  <ExternalLink className="w-3 h-3 text-red-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+                </a>
+              ))}
+            </div>
+          )}
         </header>
 
         {/* Deep Dive Forensic Findings */}

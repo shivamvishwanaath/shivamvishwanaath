@@ -94,7 +94,8 @@ export const INITIAL_CLUES: ClueItem[] = [
     ],
     tags: ['Shivam Vishwanaath', 'Founder & CEO', 'The SCI SolCielo', 'Go / Fiber v2', 'Tech Lead', 'Architect', 'DevOps'],
     links: [
-      { label: 'The SCI Portal', url: 'https://thesci.co' },
+      { label: 'The SCI (thesci.co.in)', url: 'https://thesci.co.in' },
+      { label: 'The SCI Global (thesci.co)', url: 'https://thesci.co' },
       { label: 'GitHub Profile', url: 'https://github.com/shivamvishwanaath' },
       { label: 'Instagram Intel', url: 'https://www.instagram.com/shivamvishwanaath/' },
       { label: 'X (Twitter) Feed', url: 'https://x.com/svishwanaath' },
@@ -719,8 +720,9 @@ export const INITIAL_CLUES: ClueItem[] = [
     ],
     tags: ['Entrepreneurship', 'Go', 'Enterprise SaaS', 'Cloud Infrastructure', 'Founder', 'India', 'IT Consultancy'],
     links: [
-      { label: 'thesci.co', url: 'https://thesci.co' },
-      { label: 'Helios Panel', url: 'https://he.thesci.co' }
+      { label: 'The SCI Official (thesci.co.in)', url: 'https://thesci.co.in' },
+      { label: 'Global Platform (thesci.co)', url: 'https://thesci.co' },
+      { label: 'Helios Panel (he.thesci.co)', url: 'https://he.thesci.co' }
     ],
     uvSecret: 'CORPORATE FILING: CIN issued by MCA India, February 2026. Registered: B7/10, BlueOffice Workspace, Kokar, Ranchi, Jharkhand 834001. Bootstrapped without venture capital.'
   },
@@ -756,6 +758,10 @@ export const INITIAL_CLUES: ClueItem[] = [
       { label: 'Suites', value: '5 Enterprise' }
     ],
     tags: ['The SCI SolCielo', 'MCA India', 'Incorporation', 'Founder & CEO', 'Go', 'Enterprise SaaS', 'Shivam Vishwanaath'],
+    links: [
+      { label: 'Corporate Portal (thesci.co.in)', url: 'https://thesci.co.in' },
+      { label: 'Global Platform (thesci.co)', url: 'https://thesci.co' }
+    ],
     uvSecret: 'CORPORATE FILING: CIN issued February 2026 by Ministry of Corporate Affairs, Government of India. Registered: B7/10, BlueOffice Workspace, Kokar, Ranchi, Jharkhand 834001.'
   },
   {
@@ -775,7 +781,7 @@ export const INITIAL_CLUES: ClueItem[] = [
     stamp: 'CLASSIFIED',
     headline: 'COMPANY FOUNDED — ENTERPRISE PLATFORM SHIPPED',
     date: '2024',
-    location: 'Ranchi, India → thesci.co',
+    location: 'Ranchi, India → thesci.co.in / thesci.co',
     summary: 'Self-hosted compiled Go + Fiber v2 binary that replaces cPanel/WHM (1.5GB+ RAM) with a ~15MB footprint — orchestrating Caddy reverse proxy, PowerDNS, Postfix/Dovecot mail cluster, and MariaDB through a single unified engine.',
     details: [
       'Compiled Go + Fiber v2 core: ~15MB idle RAM vs cPanel (1.5GB+) and Plesk (2GB+) — 90% RAM savings on every hosted server.',
@@ -796,8 +802,9 @@ export const INITIAL_CLUES: ClueItem[] = [
     ],
     tags: ['Go', 'Fiber v2', 'Caddy 2', 'PowerDNS', 'Postfix', 'MariaDB', 'HTTP/3', 'TLS 1.3', 'HMAC-SHA256', 'Multi-tenant', 'DevOps'],
     links: [
-      { label: 'Live Platform', url: 'https://he.thesci.co' },
-      { label: 'TheSCI Website', url: 'https://thesci.co' }
+      { label: 'Live Platform (he.thesci.co)', url: 'https://he.thesci.co' },
+      { label: 'The SCI Official (thesci.co.in)', url: 'https://thesci.co.in' },
+      { label: 'Global SaaS (thesci.co)', url: 'https://thesci.co' }
     ],
     uvSecret: 'Built in 2024 as a direct replacement for cPanel. Replaces $60/month cPanel licenses across all client servers with a single compiled binary. Zero vendor lock-in.'
   },
@@ -837,7 +844,10 @@ export const INITIAL_CLUES: ClueItem[] = [
       { label: 'Audit Trail', value: 'Immutable' }
     ],
     tags: ['Go', 'Fiber v2', 'CRM', 'MariaDB', 'HTMX', 'PDF Generation', 'Revenue Ops', 'Enterprise SaaS'],
-    links: [{ label: 'TheSCI Platform', url: 'https://thesci.co' }],
+    links: [
+      { label: 'The SCI Official (thesci.co.in)', url: 'https://thesci.co.in' },
+      { label: 'Global SaaS (thesci.co)', url: 'https://thesci.co' }
+    ],
     uvSecret: 'Replaces ₹7,500/month Salesforce licenses for a 50-person team with a one-time self-hosted license.'
   },
   {
@@ -875,7 +885,10 @@ export const INITIAL_CLUES: ClueItem[] = [
       { label: 'Per-Seat Cost', value: '₹0' }
     ],
     tags: ['Go', 'Fiber v2', 'HRMS', 'Payroll', 'RBAC', 'MariaDB', 'Employee Lifecycle', 'Enterprise SaaS'],
-    links: [{ label: 'TheSCI Platform', url: 'https://thesci.co' }],
+    links: [
+      { label: 'The SCI Official (thesci.co.in)', url: 'https://thesci.co.in' },
+      { label: 'Global SaaS (thesci.co)', url: 'https://thesci.co' }
+    ],
     uvSecret: 'Sensitive employee salary records and personal data are encrypted and stored exclusively on client-owned private servers — never Workday or BambooHR clouds.'
   },
   {
@@ -913,7 +926,10 @@ export const INITIAL_CLUES: ClueItem[] = [
       { label: 'Setup Time', value: '30 sec' }
     ],
     tags: ['Go', 'Fiber v2', 'Project Management', 'Agile', 'Kanban', 'HTMX', 'MariaDB', 'Sprint Planning'],
-    links: [{ label: 'TheSCI Platform', url: 'https://thesci.co' }],
+    links: [
+      { label: 'The SCI Official (thesci.co.in)', url: 'https://thesci.co.in' },
+      { label: 'Global SaaS (thesci.co)', url: 'https://thesci.co' }
+    ],
     uvSecret: 'Proprietary sprint roadmap data, internal bug reports, and architectural specs stay on your own server — never Jira/Atlassian clouds.'
   },
   {
@@ -951,7 +967,10 @@ export const INITIAL_CLUES: ClueItem[] = [
       { label: 'SLA Engine', value: 'Automated' }
     ],
     tags: ['Go', 'Fiber v2', 'Helpdesk', 'SLA', 'Knowledge Base', 'HTMX', 'Customer Support', 'MariaDB'],
-    links: [{ label: 'TheSCI Platform', url: 'https://thesci.co' }],
+    links: [
+      { label: 'The SCI Official (thesci.co.in)', url: 'https://thesci.co.in' },
+      { label: 'Global SaaS (thesci.co)', url: 'https://thesci.co' }
+    ],
     uvSecret: 'Full audit logs of all customer communication stay encrypted on your private servers — never Zendesk or Freshdesk clouds.'
   },
   {
@@ -989,7 +1008,10 @@ export const INITIAL_CLUES: ClueItem[] = [
       { label: 'Envelopes', value: 'Unlimited' }
     ],
     tags: ['Go', 'SHA-256', 'Cryptography', 'PDF Signing', 'OTP', 'E-Signature', 'Legal Tech', 'TrustSign'],
-    links: [{ label: 'TheSCI Platform', url: 'https://thesci.co' }],
+    links: [
+      { label: 'The SCI Official (thesci.co.in)', url: 'https://thesci.co.in' },
+      { label: 'Global SaaS (thesci.co)', url: 'https://thesci.co' }
+    ],
     uvSecret: 'Sensitive legal contracts never get uploaded to third-party DocuSign or Adobe Sign clouds. Your SHA-256 private key stays on your server, always.'
   },
   {
