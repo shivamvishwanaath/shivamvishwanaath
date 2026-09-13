@@ -1,12 +1,13 @@
 <div align="center">
 
 # Hi there, I'm Shivam Vishwanaath 👋
-### Tech Lead & Full-Stack Systems Architect
+### Founder & CEO · Full-Stack Systems Architect
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=0ea5e9&center=true&vCenter=true&width=650&lines=Tech+Lead+%40+Trans+Ed;Full-Stack+Architect+%E2%80%A2+DevOps+%E2%80%A2+Cloud+Hosting;TypeScript+%E2%80%A2+React+%E2%80%A2+Next.js+%E2%80%A2+Node.js;Ubuntu+Linux+VPS+%E2%80%A2+Caddy+%E2%80%A2+Docker+%E2%80%A2+PM2;Building+Scalable+Production+Systems)](https://shivamvishwanaath.dev)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=0ea5e9&center=true&vCenter=true&width=700&lines=Founder+%26+CEO+%40+The+SCI+SolCielo+Innovacion+Pvt+Ltd;Full-Stack+Architect+%E2%80%A2+DevOps+%E2%80%A2+Cloud+Infrastructure;Go+%E2%80%A2+TypeScript+%E2%80%A2+Next.js+%E2%80%A2+Fiber+v2+%E2%80%A2+MariaDB;Ubuntu+VPS+%E2%80%A2+Caddy+%E2%80%A2+Docker+%E2%80%A2+PM2;Building+Enterprise+Platforms+from+Eastern+India)](https://shivamvishwanaath.dev)
 
 <p align="center">
-  <a href="https://shivamvishwanaath.dev"><img src="https://img.shields.io/badge/Website-shivamvishwanaath.dev-0ea5e9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="https://shivamvishwanaath.dev"><img src="https://img.shields.io/badge/Portfolio-shivamvishwanaath.dev-0ea5e9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="https://thesci.co.in"><img src="https://img.shields.io/badge/Company-thesci.co.in-dc2626?style=for-the-badge&logo=globe&logoColor=white" alt="Company" /></a>
   <a href="mailto:shivam.strive@gmail.com"><img src="https://img.shields.io/badge/Email-shivam.strive%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://x.com/svishwanaath"><img src="https://img.shields.io/badge/X-@svishwanaath-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
   <a href="https://www.instagram.com/shivamvishwanaath/"><img src="https://img.shields.io/badge/Instagram-@shivamvishwanaath-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
@@ -22,43 +23,68 @@
 
 ## 👨‍💻 About Me
 
-I am a **Tech Lead & Full-Stack Systems Architect** specializing in building high-concurrency web platforms, automated assessment diagnostics, and managing bare-metal Linux cloud infrastructure.
+I am the **Founder & CEO of [The SCI SolCielo Innovacion Private Limited™](https://thesci.co.in)** — a MCA India registered enterprise technology company headquartered in Ranchi, Jharkhand. I architect self-hosted, compiled enterprise cloud platforms that deliver CRM, HRMS, Project Management, Helpdesk, and Digital Signature capabilities at a fraction of the cost of global SaaS alternatives.
 
-- 💼 **Current Role:** Tech Lead at **Trans Ed** — directing the engineering roadmap and software architecture for 3 production EdTech platforms serving students and educators across India.
+- 🏢 **Company:** [The SCI SolCielo Innovacion Pvt Ltd™](https://thesci.co.in) — MSME registered (2024), MCA incorporated as Private Limited (Feb 2026). Serving SMEs across Jharkhand, Bihar, Odisha, and Eastern India.
 - 🎓 **Academic Credentials:** 
   - **MBA in Data Science** — *Amity Online* (2025–2027)
   - **B.Tech in Electronics & Communication Engineering** — *Birla Institute of Technology (BIT Mesra)* (2021–2025)
-- 🚀 **Production Scale & Shipped Work:** Shipped **6+ production web applications and portals** end-to-end: handling database design, REST APIs, responsive frontend engineering, and Linux VPS system hardening.
-- 📱 **Published Mobile Apps:** Native Android developer with utilities published on the Google Play Store, including a chemistry resource carrying **70+ five-star reviews** and 100% offline-first performance.
-- 🩸 **Community Leadership:** Event Head at NSS (led university blood donation drive collecting a record **250+ units in 24 hours** and directed weekend education cycles teaching **130+ underprivileged village children**), and President of the Environmental Protection & Awareness Club (EPAC).
-- 💬 **Ask me about:** Systems architecture, VPS hosting, auto SSL configuration, database schema design, and scaling JavaScript/TypeScript codebases.
-- 📫 **Reach Me:** [shivam.strive@gmail.com](mailto:shivam.strive@gmail.com) • [shivamvishwanaath.dev](https://shivamvishwanaath.dev)
+- 🚀 **Production Scale:** Built & shipped **10+ production platforms** end-to-end — from enterprise cloud infrastructure and CRM suites to EdTech examination engines and e-signature systems. All running on self-managed bare-metal VPS infrastructure.
+- 📱 **Published Mobile Apps:** Native Android developer with utilities on the Google Play Store, including a chemistry resource with **70+ five-star reviews** and 100% offline-first performance.
+- 🩸 **Community Impact:** Organised large-scale blood donation drives collecting **500+ units in a single day**. Led village-level education initiatives reaching **300+ students across 8 remote hubs** in Jharkhand & Odisha. President of the Environmental Protection & Awareness Club (EPAC) — **100+ active members, 250+ alumni mentors**.
+- 💬 **Ask me about:** Enterprise platform architecture, self-hosted cloud infrastructure, Go/Fiber compiled backends, Next.js full-stack systems, and building tech companies from tier-2 India.
+- 📫 **Reach Me:** [shivam.strive@gmail.com](mailto:shivam.strive@gmail.com) • [shivamvishwanaath.dev](https://shivamvishwanaath.dev) • [thesci.co.in](https://thesci.co.in)
+
+---
+
+## 🏗️ The SCI SolCielo Innovacion — What We Build
+
+<div align="center">
+
+*Premium Enterprise Technology at 10x Lower Total Cost of Ownership — fully self-hosted, fully sovereign.*
+
+</div>
+
+| Suite | What It Does | Replaces |
+| :--- | :--- | :--- |
+| ☁️ **Cloud Engine** | Lightweight compiled server management & cloud hosting panel (~15 MB RAM idle) | cPanel, Plesk |
+| 📊 **CRM Suite** | Sales pipeline, deal tracking, revenue forecasting, client communications | Salesforce, HubSpot |
+| 👥 **HRMS Suite** | Employee records, attendance, payroll workflows, org hierarchy | BambooHR, Zoho People |
+| 📋 **Project Management** | Kanban boards, sprint management, team collaboration, milestone tracking | Asana, Jira, Monday.com |
+| 🎧 **Support Suite** | Multi-channel helpdesk, SLA tracking, knowledge base management | Zendesk, Freshdesk |
+| ✍️ **Digital Signatures** | Tamper-evident PDF signing with cryptographic verification certificates | DocuSign, Adobe Sign |
+
+<div align="center">
+
+🌐 **[thesci.co.in](https://thesci.co.in)** (Corporate India) · **[thesci.co](https://thesci.co)** (Global Platform) · **[he.thesci.co](https://he.thesci.co)** (Live Cloud Panel)
+
+</div>
 
 ---
 
 ## 🔭 What I'm Currently Building
 
-- 🏗️ **[shivamvishwanaath.dev](https://shivamvishwanaath.dev)** — My interactive portfolio showcasing a draggable Crime Investigation Pinboard with red-string corkboard, UV blacklight mode, and act-based story navigation.
-- 📝 **Technical Field Notes** — Sharing engineering debriefs on Next.js 15 App Router design, bare-metal Caddy SSL configurations, and EdTech algorithms at [shivamvishwanaath.dev/blog](https://shivamvishwanaath.dev/blog).
-- 📊 **Diagnostic Assessment Engine v2** — Developing a next-gen weak-area clustering algorithm to generate real-time feedback loops for adaptive testing simulators.
+- 🏢 **[The SCI SolCielo Innovacion](https://thesci.co.in)** — Scaling self-hosted enterprise cloud infrastructure and business application suites for SMEs across Eastern India.
+- 🕵️ **[shivamvishwanaath.dev](https://shivamvishwanaath.dev)** — Interactive crime-investigation-themed portfolio with draggable Pinboard canvas, UV blacklight mode, and act-based story navigation.
+- 📝 **Technical Field Notes** — Engineering debriefs on compiled Go backends, bare-metal Caddy SSL, and enterprise architecture at [shivamvishwanaath.dev/blog](https://shivamvishwanaath.dev/blog).
 
 ---
 
 ## 🛠️ Tech Stack & Arsenal
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,express,postgres,mongodb,supabase,firebase,ubuntu,docker,c,cpp,python,git,bash,linux" alt="Tech Stack Icons" />
+  <img src="https://skillicons.dev/icons?i=go,ts,js,react,nextjs,tailwind,nodejs,express,postgres,mongodb,mysql,supabase,firebase,ubuntu,docker,c,cpp,python,git,bash,linux" alt="Tech Stack Icons" />
 </div>
 
 <br />
 
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **Languages** | TypeScript, JavaScript (ESNext), Python, C / C++, SQL, Bash / Shell |
-| **Frontend Architecture** | React.js (v18 / v19), Next.js (App Router), Tailwind CSS, Framer Motion, Angular, HTML5, CSS3 |
-| **Backend & Microservices** | Node.js, Express.js, RESTful APIs, WebSockets, Middleware Pipelines |
-| **Databases & Storage** | PostgreSQL, MongoDB, Supabase, Firebase Realtime Database / Firestore |
-| **DevOps & Infrastructure** | Ubuntu Linux VPS, Caddy Web Server (HTTP/3 & Auto SSL), PM2 Process Manager, Docker, UFW Firewall, CI/CD |
+| **Languages** | Go, TypeScript, JavaScript (ESNext), Python, C / C++, SQL, Bash / Shell |
+| **Frontend Architecture** | React.js (v18 / v19), Next.js (App Router), Tailwind CSS, Framer Motion, HTMX, HTML5, CSS3 |
+| **Backend & Microservices** | Go + Fiber v2, Node.js, Express.js, RESTful APIs, WebSockets, Middleware Pipelines |
+| **Databases & Storage** | MariaDB, PostgreSQL, MongoDB, Supabase, Firebase Realtime Database / Firestore |
+| **DevOps & Infrastructure** | Ubuntu Linux VPS, Caddy Web Server (HTTP/3 & Auto SSL), PM2 Process Manager, Docker, PowerDNS, UFW Firewall, CI/CD |
 | **Data Science & Analytics** | NumPy, Pandas, Predictive Modeling, Diagnostic Assessment Algorithms, Performance Telemetry |
 
 ---
@@ -66,6 +92,32 @@ I am a **Tech Lead & Full-Stack Systems Architect** specializing in building hig
 ## 🚀 Featured Platforms & Projects
 
 <table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">☁️ Helios Cloud Engine</h3>
+      <p><b>Tech Stack:</b> <code>Go</code> <code>Fiber v2</code> <code>MariaDB</code> <code>Caddy 2</code> <code>Ubuntu VPS</code></p>
+      <ul>
+        <li>Self-hosted compiled cloud hosting & server management panel replacing cPanel/Plesk.</li>
+        <li>~15 MB RAM idle — 90% less resource consumption than traditional panels.</li>
+        <li>Automated SSL, PowerDNS, domain management, firewall, and backup engine.</li>
+      </ul>
+      <p align="center">
+        <a href="https://thesci.co.in"><b>Visit The SCI →</b></a> · <a href="https://he.thesci.co"><b>Live Panel →</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">📊 Enterprise CRM Suite</h3>
+      <p><b>Tech Stack:</b> <code>Go</code> <code>Fiber v2</code> <code>MariaDB</code> <code>HTMX</code></p>
+      <ul>
+        <li>Visual drag-drop sales pipeline, deal tracking, and revenue forecasting.</li>
+        <li>Quote builder, smart deduplication, and immutable interaction timeline.</li>
+        <li>Zero per-seat licensing — self-hosted Salesforce/HubSpot alternative.</li>
+      </ul>
+      <p align="center">
+        <a href="https://shivamvishwanaath.dev/projects/helios-crm-enterprise"><b>View Project Details →</b></a>
+      </p>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">🎯 CBSEForum & BITSATForum</h3>
@@ -170,9 +222,10 @@ I am a **Tech Lead & Full-Stack Systems Architect** specializing in building hig
 
 <div align="center">
 
-Whether you want to discuss full-stack architecture, DevOps, tech leadership opportunities, or just talk tech:
+Whether you want to discuss enterprise architecture, cloud infrastructure, startup building, or collaboration opportunities:
 
 [![Website](https://img.shields.io/badge/Portfolio-shivamvishwanaath.dev-0284c7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shivamvishwanaath.dev)
+[![Company](https://img.shields.io/badge/Company-thesci.co.in-dc2626?style=for-the-badge&logo=globe&logoColor=white)](https://thesci.co.in)
 [![Email](https://img.shields.io/badge/Email-shivam.strive%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shivam.strive@gmail.com)
 [![X](https://img.shields.io/badge/X-@svishwanaath-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/svishwanaath)
 [![GitHub](https://img.shields.io/badge/GitHub-shivamvishwanaath-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shivamvishwanaath)
@@ -180,6 +233,6 @@ Whether you want to discuss full-stack architecture, DevOps, tech leadership opp
 
 <br />
 
-<sub>Designed & Built by **Shivam Vishwanaath** • Available for Tech Lead & Systems Architecture roles worldwide</sub>
+<sub>Designed & Built by **Shivam Vishwanaath** · Founder & CEO at The SCI SolCielo Innovacion Pvt Ltd™ · Ranchi, India</sub>
 
 </div>
