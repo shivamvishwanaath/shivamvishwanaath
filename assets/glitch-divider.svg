@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" width="100%" height="40">
+  <style>
+    @keyframes glitchText {
+      0%, 93%, 100% {
+        transform: translate(0, 0);
+        opacity: 1;
+        fill: #00ff41;
+      }
+      94% {
+        transform: translate(-3px, 1px);
+        opacity: 0.8;
+        fill: #00f0ff;
+      }
+      95% {
+        transform: translate(3px, -1px);
+        opacity: 0.9;
+        fill: #ff0055;
+      }
+      96% {
+        transform: translate(0, 0);
+        opacity: 1;
+        fill: #00ff41;
+      }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.8; }
+      50% { opacity: 0.4; }
+    }
+    .glitch { animation: glitchText 4s infinite; }
+    .divider-glow { animation: pulseGlow 2.5s infinite ease-in-out; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  </style>
+
+  <!-- Left Line -->
+  <line x1="20" y1="20" x2="380" y2="20" stroke="#00ff41" stroke-width="1.2" stroke-opacity="0.7" class="divider-glow" />
+  <circle cx="380" cy="20" r="3" fill="#00ff41" />
+
+  <!-- Center Badge -->
+  <g transform="translate(400, 7)">
+    <rect width="400" height="26" rx="4" fill="#090d16" stroke="#00ff41" stroke-width="1" stroke-opacity="0.8" />
+    <text x="200" y="17" text-anchor="middle" font-size="11" font-weight="bold" letter-spacing="2" class="mono glitch">
+      [ENCRYPTED TERMINAL // ROOT CLEARANCE]
+    </text>
+  </g>
+
+  <!-- Right Line -->
+  <circle cx="820" cy="20" r="3" fill="#00ff41" />
+  <line x1="820" y1="20" x2="1180" y2="20" stroke="#00ff41" stroke-width="1.2" stroke-opacity="0.7" class="divider-glow" />
+</svg>

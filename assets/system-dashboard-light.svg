@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="300">
+  <defs>
+    <!-- Background Gradient for Light Mode -->
+    <linearGradient id="dashBgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f1f5f9" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes barCpuLight {
+      0%, 100% { width: 55px; }
+      50% { width: 85px; }
+    }
+    @keyframes barDiskLight {
+      0%, 100% { width: 140px; }
+      50% { width: 148px; }
+    }
+    @keyframes barNetLight {
+      0%, 100% { width: 60px; }
+      50% { width: 110px; }
+    }
+    @keyframes pulseGlowGreenLight {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.35; }
+    }
+
+    .hud-text-light { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .led-gl { animation: pulseGlowGreenLight 2s infinite ease-in-out; }
+    .cpu-anim-light { animation: barCpuLight 4s ease-in-out infinite; }
+    .disk-anim-light { animation: barDiskLight 6s ease-in-out infinite; }
+    .net-anim-light { animation: barNetLight 3s ease-in-out infinite; }
+  </style>
+
+  <!-- Outer Frame -->
+  <rect width="1200" height="300" rx="8" fill="url(#dashBgLight)" stroke="#0284c7" stroke-width="1.4" />
+
+  <!-- Top Title Bar -->
+  <path d="M 0 8 Q 0 0 8 0 L 1192 0 Q 1200 0 1200 8 L 1200 36 L 0 36 Z" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.8" />
+  <circle cx="24" cy="18" r="4.5" fill="#0284c7" class="led-gl" />
+  <text x="38" y="22" fill="#0369a1" class="hud-text-light" font-size="12" font-weight="bold" letter-spacing="1.5">
+    HELIOS OPERATIONS CENTER // solcielo-vps01.thesci.co.in
+  </text>
+  <text x="1170" y="22" text-anchor="end" fill="#64748b" class="hud-text-light" font-size="11" font-weight="600">
+    UPTIME: 347d 14h 22m · CLUSTER STATUS: OPTIMAL
+  </text>
+
+  <!-- PANEL 1: NODE SPECIFICATION (Left) -->
+  <g transform="translate(25, 55)">
+    <rect width="360" height="195" rx="5" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+    <path d="M 0 5 Q 0 0 5 0 L 355 0 Q 360 0 360 5 L 360 28 L 0 28 Z" fill="#e2e8f0" />
+    <text x="14" y="19" fill="#0284c7" class="hud-text-light" font-size="11" font-weight="bold" letter-spacing="1">
+      [01] BARE-METAL NODE SPECS
+    </text>
+
+    <!-- Node specs lines -->
+    <g transform="translate(15, 48)" class="hud-text-light" font-size="11.5">
+      <text y="0" fill="#64748b">HOSTNAME:</text>
+      <text x="110" y="0" fill="#0f172a" font-weight="bold">vps01.thesci.co.in</text>
+
+      <text y="24" fill="#64748b">OS PLATFORM:</text>
+      <text x="110" y="24" fill="#059669" font-weight="bold">Ubuntu 24.04 LTS (x86_64)</text>
+
+      <text y="48" fill="#64748b">DATA HUB:</text>
+      <text x="110" y="48" fill="#334155">Ranchi, Jharkhand (India)</text>
+
+      <text y="72" fill="#64748b">KERNEL CORE:</text>
+      <text x="110" y="72" fill="#334155">Linux 6.8.0-45-generic</text>
+
+      <text y="96" fill="#64748b">SEC. CLEARANCE:</text>
+      <text x="110" y="96" fill="#0284c7" font-weight="bold">MCA Pvt Ltd (Feb 2026)</text>
+
+      <text y="120" fill="#64748b">NODE STATUS:</text>
+      <text x="110" y="120" fill="#059669" font-weight="bold">[ONLINE · SOVEREIGN]</text>
+    </g>
+  </g>
+
+  <!-- PANEL 2: RESOURCE TELEMETRY (Center) -->
+  <g transform="translate(410, 55)">
+    <rect width="380" height="195" rx="5" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+    <path d="M 0 5 Q 0 0 5 0 L 375 0 Q 380 0 380 5 L 380 28 L 0 28 Z" fill="#e2e8f0" />
+    <text x="14" y="19" fill="#059669" class="hud-text-light" font-size="11" font-weight="bold" letter-spacing="1">
+      [02] LIVE RESOURCE TELEMETRY
+    </text>
+
+    <!-- Telemetry Bars -->
+    <g transform="translate(15, 45)" class="hud-text-light">
+      <!-- CPU -->
+      <text y="12" fill="#64748b" font-size="11">CPU CORE:</text>
+      <text x="300" y="12" fill="#059669" font-size="11" font-weight="bold" text-anchor="end">14%</text>
+      <rect x="90" y="2" width="200" height="13" rx="2" fill="#e2e8f0" stroke="#cbd5e1" />
+      <rect x="91" y="3" width="60" height="11" rx="1" fill="#059669" class="cpu-anim-light" />
+
+      <!-- RAM -->
+      <text y="38" fill="#64748b" font-size="11">RAM IDLE:</text>
+      <text x="300" y="38" fill="#0284c7" font-size="11" font-weight="bold" text-anchor="end">~15 MB</text>
+      <rect x="90" y="28" width="200" height="13" rx="2" fill="#e2e8f0" stroke="#cbd5e1" />
+      <rect x="91" y="29" width="30" height="11" rx="1" fill="#0284c7" />
+
+      <!-- DISK -->
+      <text y="64" fill="#64748b" font-size="11">STORAGE:</text>
+      <text x="300" y="64" fill="#334155" font-size="11" font-weight="bold" text-anchor="end">51%</text>
+      <rect x="90" y="54" width="200" height="13" rx="2" fill="#e2e8f0" stroke="#cbd5e1" />
+      <rect x="91" y="55" width="144" height="11" rx="1" fill="#3b82f6" class="disk-anim-light" />
+
+      <!-- NETWORK -->
+      <text y="90" fill="#64748b" font-size="11">BANDWIDTH:</text>
+      <text x="300" y="90" fill="#059669" font-size="11" font-weight="bold" text-anchor="end">1 Gbps</text>
+      <rect x="90" y="80" width="200" height="13" rx="2" fill="#e2e8f0" stroke="#cbd5e1" />
+      <rect x="91" y="81" width="85" height="11" rx="1" fill="#10b981" class="net-anim-light" />
+
+      <!-- Note about RAM -->
+      <text y="125" fill="#0369a1" font-size="10.5" font-weight="bold">
+        ⚡ HELIOS COMPILED GO CORE: 90% LESS RAM THAN cPANEL
+      </text>
+    </g>
+  </g>
+
+  <!-- PANEL 3: ACTIVE DAEMONS & SENTINELS (Right) -->
+  <g transform="translate(815, 55)">
+    <rect width="360" height="195" rx="5" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+    <path d="M 0 5 Q 0 0 5 0 L 355 0 Q 360 0 360 5 L 360 28 L 0 28 Z" fill="#e2e8f0" />
+    <text x="14" y="19" fill="#0284c7" class="hud-text-light" font-size="11" font-weight="bold" letter-spacing="1">
+      [03] ACTIVE DAEMON SENTINELS
+    </text>
+
+    <!-- Services list -->
+    <g transform="translate(15, 46)" class="hud-text-light" font-size="11">
+      <g transform="translate(0, 0)">
+        <circle cx="5" cy="5" r="3.5" fill="#059669" class="led-gl" />
+        <text x="16" y="8" fill="#1e293b">Caddy 2 HTTP/3 Auto-TLS</text>
+        <text x="330" y="8" text-anchor="end" fill="#059669" font-weight="bold">:443</text>
+      </g>
+      <g transform="translate(0, 22)">
+        <circle cx="5" cy="5" r="3.5" fill="#059669" class="led-gl" />
+        <text x="16" y="8" fill="#1e293b">PowerDNS MariaDB Backend</text>
+        <text x="330" y="8" text-anchor="end" fill="#059669" font-weight="bold">:53</text>
+      </g>
+      <g transform="translate(0, 44)">
+        <circle cx="5" cy="5" r="3.5" fill="#059669" class="led-gl" />
+        <text x="16" y="8" fill="#1e293b">Postfix &amp; Dovecot Cluster</text>
+        <text x="330" y="8" text-anchor="end" fill="#059669" font-weight="bold">:25/:993</text>
+      </g>
+      <g transform="translate(0, 66)">
+        <circle cx="5" cy="5" r="3.5" fill="#0284c7" class="led-gl" />
+        <text x="16" y="8" fill="#1e293b">MariaDB InnoDB SQL Engine</text>
+        <text x="330" y="8" text-anchor="end" fill="#0284c7" font-weight="bold">:3306</text>
+      </g>
+      <g transform="translate(0, 88)">
+        <circle cx="5" cy="5" r="3.5" fill="#059669" class="led-gl" />
+        <text x="16" y="8" fill="#1e293b">Helios Go Core Supervisor</text>
+        <text x="330" y="8" text-anchor="end" fill="#059669" font-weight="bold">:8080</text>
+      </g>
+      <g transform="translate(0, 110)">
+        <circle cx="5" cy="5" r="3.5" fill="#0284c7" class="led-gl" />
+        <text x="16" y="8" fill="#1e293b">TrustSign SHA-256 Engine</text>
+        <text x="330" y="8" text-anchor="end" fill="#0284c7" font-weight="bold">:8443</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Status Footer Strip -->
+  <g transform="translate(25, 275)" class="hud-text-light" font-size="11">
+    <text fill="#64748b">THREAT MODEL: <tspan fill="#059669" font-weight="bold">ZERO-TRUST LINUX HARDENED</tspan></text>
+    <text x="450" fill="#64748b">DATA SOVEREIGNTY: <tspan fill="#0284c7" font-weight="bold">100% PRIVATE HOSTING</tspan></text>
+    <text x="890" fill="#64748b">LICENSE OVERHEAD: <tspan fill="#059669" font-weight="bold">$0 PER-SEAT TAX</tspan></text>
+  </g>
+</svg>

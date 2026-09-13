@@ -1,53 +1,92 @@
 <div align="center">
 
-# Hi there, I'm Shivam Vishwanaath 👋
-### Founder & CEO · Full-Stack Systems Architect
+<!-- Cyberpunk Matrix Rain Hero Banner (Adaptive Dark/Light) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-matrix-rain.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-matrix-rain-light.svg" />
+  <img width="100%" alt="Shivam Vishwanaath — Founder &amp; CEO · Systems Architect" src="./assets/header-matrix-rain.svg" />
+</picture>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=0ea5e9&center=true&vCenter=true&width=750&lines=Founder+%26+CEO+%40+The+SCI+SolCielo+Innovacion+Pvt+Ltd;Full-Stack+Architect+%E2%80%A2+DevOps+%E2%80%A2+Bare-Metal+Cloud+Infrastructure;Go+%E2%80%A2+Fiber+v2+%E2%80%A2+TypeScript+%E2%80%A2+Next.js+%E2%80%A2+MariaDB+%E2%80%A2+Caddy+2;Building+High-Efficiency+Enterprise+Platforms+from+Eastern+India;Tech+Lead+%40+Trans+Ed+%E2%80%A2+EdTech+Architectures)](https://shivamvishwanaath.dev)
+<!-- Dynamic Monospace Typing Ticker -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1200&color=00ff41&center=true&vCenter=true&width=800&lines=%3E+Founder+%26+CEO+%40+The+SCI+SolCielo+Innovacion+Private+Limited%E2%84%A2;%3E+Systems+Architect+%E2%80%A2+Bare-Metal+Cloud+%26+Compiled+Go+Core;%3E+Go+%E2%80%A2+Fiber+v2+%E2%80%A2+TypeScript+%E2%80%A2+Next.js+15+%E2%80%A2+MariaDB+%E2%80%A2+Caddy+2;%3E+Building+10x+Lower+TCO+Enterprise+Platforms+from+Eastern+India;%3E+Concurrent+Tech+Lead+%40+Trans+Ed+%E2%80%A2+EdTech+Architectures)](https://shivamvishwanaath.dev)
 
 <p align="center">
-  <a href="https://shivamvishwanaath.dev"><img src="https://img.shields.io/badge/Portfolio-shivamvishwanaath.dev-0ea5e9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
-  <a href="https://thesci.co.in"><img src="https://img.shields.io/badge/The_SCI_(India)-thesci.co.in-dc2626?style=for-the-badge&logo=globe&logoColor=white" alt="Company Portal" /></a>
-  <a href="https://thesci.co"><img src="https://img.shields.io/badge/Global_SaaS-thesci.co-2563eb?style=for-the-badge&logo=cloud&logoColor=white" alt="Global SaaS" /></a>
-  <a href="https://he.thesci.co"><img src="https://img.shields.io/badge/Helios_Panel-he.thesci.co-059669?style=for-the-badge&logo=server&logoColor=white" alt="Helios Panel" /></a>
-  <a href="mailto:shivam.strive@gmail.com"><img src="https://img.shields.io/badge/Email-shivam.strive%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://x.com/svishwanaath"><img src="https://img.shields.io/badge/X-@svishwanaath-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-  <a href="https://www.instagram.com/shivamvishwanaath/"><img src="https://img.shields.io/badge/Instagram-@shivamvishwanaath-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://shivamvishwanaath.dev"><img src="https://img.shields.io/badge/PORTFOLIO-shivamvishwanaath.dev-0a0f1d?style=for-the-badge&logo=googlechrome&logoColor=00f0ff&labelColor=050811" alt="Portfolio" /></a>
+  <a href="https://thesci.co.in"><img src="https://img.shields.io/badge/THE_SCI_(INDIA)-thesci.co.in-0a0f1d?style=for-the-badge&logo=globe&logoColor=00ff41&labelColor=050811" alt="Corporate Portal" /></a>
+  <a href="https://thesci.co"><img src="https://img.shields.io/badge/GLOBAL_SAAS-thesci.co-0a0f1d?style=for-the-badge&logo=cloud&logoColor=38bdf8&labelColor=050811" alt="Global SaaS" /></a>
+  <a href="https://he.thesci.co"><img src="https://img.shields.io/badge/HELIOS_PANEL-he.thesci.co-0a0f1d?style=for-the-badge&logo=server&logoColor=00ff41&labelColor=050811" alt="Helios Panel" /></a>
+  <a href="mailto:shivam.strive@gmail.com"><img src="https://img.shields.io/badge/DISPATCH-shivam.strive%40gmail.com-0a0f1d?style=for-the-badge&logo=gmail&logoColor=ea4335&labelColor=050811" alt="Email" /></a>
+  <a href="https://x.com/svishwanaath"><img src="https://img.shields.io/badge/X-@svishwanaath-0a0f1d?style=for-the-badge&logo=x&logoColor=ffffff&labelColor=050811" alt="X" /></a>
+  <a href="https://www.instagram.com/shivamvishwanaath/"><img src="https://img.shields.io/badge/INSTAGRAM-@shivamvishwanaath-0a0f1d?style=for-the-badge&logo=instagram&logoColor=e4405f&labelColor=050811" alt="Instagram" /></a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=shivamvishwanaath&color=0ea5e9&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=shivamvishwanaath&color=00ff41&style=flat-square&label=TERMINAL+ACCESS+LOGS" alt="Profile Views" />
 </p>
 
 </div>
 
----
+<!-- Live Operations Center Dashboard (Adaptive Dark/Light) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/system-dashboard.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/system-dashboard-light.svg" />
+  <img width="100%" alt="Helios Operations Center — Live System Telemetry HUD" src="./assets/system-dashboard.svg" />
+</picture>
 
-## 👨‍💻 About Me
+<br />
+<img width="100%" src="./assets/glitch-divider.svg" alt="Divider" />
+<br />
+
+<!-- SESSION 01: EXECUTIVE SUMMARY & CREDENTIALS -->
+<details open>
+<summary><code><b>$ cat /proc/identity // EXECUTIVE PROFILE &amp; CREDENTIALS</b></code></summary>
+<br />
+
+```yaml
+IDENTITY_SPECIFICATION:
+  Subject: Shivam Vishwanaath
+  Designation: Founder & CEO · The SCI SolCielo Innovacion Private Limited™
+  Concurrent_Role: Tech Lead · Trans Ed (Bhubaneswar, India)
+  Specialization: Compiled Go Cloud Infrastructure · Bare-Metal Linux Systems · Enterprise Web Platforms
+  Clearance_Status: Ministry of Corporate Affairs (MCA) Incorporated · Active Tech Leadership
+  Headquarters: BlueOffice Workspace, Kokar Chowk, Ranchi, Jharkhand, India — 834001
+```
 
 I am the **Founder & CEO of [The SCI SolCielo Innovacion Private Limited™](https://thesci.co.in)** — a Ministry of Corporate Affairs (MCA) India registered enterprise technology firm headquartered in Ranchi, Jharkhand. I architect self-hosted, compiled enterprise cloud platforms and unified business application suites that deliver CRM, HRMS, Agile Project Management, Helpdesk, and Cryptographic Digital Signatures at 10x lower Total Cost of Ownership (TCO) compared to bloated SaaS alternatives. Concurrently, I serve as **Tech Lead at Trans Ed**, directing core software architectures for large-scale academic assessment platforms.
 
-- 🏢 **Corporate Entity:** [The SCI SolCielo Innovacion Pvt. Ltd.™](https://thesci.co.in) — Founded 2019, MSME Udyam registered (2024), officially incorporated as Private Limited with MCA India (Feb 2026). Corporate HQ: BlueOffice Workspace, Kokar Chowk, Ranchi, Jharkhand, India.
+- 🏢 **Corporate Entity:** [The SCI SolCielo Innovacion Pvt. Ltd.™](https://thesci.co.in) — Founded 2019, MSME Udyam registered (2024), officially incorporated as Private Limited with MCA India (Feb 2026). Serving SMEs, institutions, and startups across Jharkhand, Bihar, Odisha, and Eastern India.
 - 🎓 **Academic Pedigree:** 
   - **MBA in Data Science** — *Amity Online* (2025–2027, Active Cohort)
   - **B.Tech in Electronics & Communication Engineering** — *Birla Institute of Technology (BIT Mesra)* (2021–2025, Completed)
-  - **Class XII CBSE (Senior Secondary)** — *Chinmaya Vidyalaya, Bokaro* (2018–2020, 92% Score)
-- 🚀 **Production Scale & Track Record:** Architected, built, and shipped **10+ production-grade platforms** end-to-end — from compiled Go cloud engines running on ~15MB RAM idle to EdTech exam simulators serving thousands of concurrent aspirants. All hosted on self-managed bare-metal Ubuntu Linux VPS nodes with zero proprietary cloud lock-in.
+  - **Class XII CBSE (Senior Secondary)** — *Chinmaya Vidyalaya, Bokaro* (2018–2020, Completed with 92% Score)
+- 🚀 **Production Scale & Engineering Track Record:** Architected, built, and shipped **10+ production-grade platforms** end-to-end — from compiled Go cloud engines running on ~15MB RAM idle to EdTech exam simulators serving thousands of concurrent aspirants. All hosted on self-managed bare-metal Ubuntu Linux VPS nodes with zero proprietary cloud lock-in.
 - 📱 **Published Native Android Apps:** Google Play Store developer carrying chemistry and utility resources with **70+ five-star reviews** and 100% offline-first architecture.
-- 🩸 **Humanitarian & Community Impact:** 
+- 🩸 **Humanitarian & Community Leadership:** 
   - **500+ Blood Units** collected in a single 24-hour mega donation drive as NSS Event Head.
   - **300+ Rural & Village Students** taught across **8 remote learning hubs** in Jharkhand and Odisha.
   - **100+ Active Student Members & 250+ Alumni Mentors** networked as President of the Environmental Protection & Awareness Club (EPAC).
 - 💬 **Ask Me About:** Systems architecture, compiled Go/Fiber backends, bare-metal VPS server hardening, Caddy 2 reverse proxies, automated Let's Encrypt / ZeroSSL, PowerDNS MariaDB backends, high-concurrency web portals, and building sustainable tech companies from Eastern India.
 - 📫 **Direct Dispatch:** [shivam.strive@gmail.com](mailto:shivam.strive@gmail.com) • [contact@thesci.co.in](mailto:contact@thesci.co.in) • [shivamvishwanaath.dev](https://shivamvishwanaath.dev)
 
----
+</details>
 
-## 🏗️ The SCI SolCielo Innovacion — What We Build
+<br />
+<img width="100%" src="./assets/glitch-divider.svg" alt="Divider" />
+<br />
+
+<!-- SESSION 02: HELIOS ARCHITECTURE & 5 ENTERPRISE SUITES -->
+<details open>
+<summary><code><b>$ helios --inspect-architecture --topology // COMPILED ENTERPRISE PLATFORM</b></code></summary>
+<br />
 
 <div align="center">
 
-*Premium Enterprise Technology at 10x Lower Total Cost of Ownership — fully self-hosted, modular, and cryptographically sovereign.*
+<!-- Animated Circuit Topology Diagram -->
+<img width="100%" src="./assets/circuit-topology.svg" alt="Helios Platform System Circuit Topology" />
+
+<br />
+
+*⚡ Premium Enterprise Technology at 10x Lower Total Cost of Ownership — fully self-hosted, modular, and cryptographically sovereign.*
 
 </div>
 
@@ -55,10 +94,10 @@ I am the **Founder & CEO of [The SCI SolCielo Innovacion Private Limited™](htt
 
 | Suite | Core Capabilities | Replaces (Zero Per-Seat Fees) |
 | :--- | :--- | :--- |
-| ☁️ **Helios Cloud Engine** | Lightweight compiled server management panel (~15 MB RAM idle), Caddy 2 reverse proxy, PowerDNS native MariaDB backend, automated SSL, Postfix/Dovecot mail cluster. | cPanel, WHM, Plesk ($40–$60/mo/server) |
+| ☁️ **Helios Cloud Engine** | Lightweight compiled server management panel (**~15 MB RAM idle**), Caddy 2 reverse proxy, PowerDNS native MariaDB backend, automated SSL, Postfix/Dovecot mail cluster. | cPanel, WHM, Plesk ($40–$60/mo/server) |
 | 📊 **Helios-CRM** | Visual drag-drop deal pipeline, proposal & quote builder with PDF generation, weighted revenue forecasting, email correspondence sync, smart deduplication. | Salesforce Sales Cloud, HubSpot ($150/user/mo) |
 | 👥 **Helios-HRMS** | Complete employee directory, automated leave accrual & approvals, custom statutory payroll formulas, org hierarchy, onboarding audit ledgers. | BambooHR, Workday, Zoho People ($12–$20/user/mo) |
-| 📋 **Helios-PM** | Agile sprint management, customizable Kanban boards, story point velocity metrics, cross-project portfolio overview, <50ms board renders. | Jira, Asana, Monday.com ($15–$25/user/mo) |
+| 📋 **Helios-PM** | Agile sprint management, customizable Kanban boards, story point velocity metrics, cross-project portfolio overview, **<50ms board renders**. | Jira, Asana, Monday.com ($15–$25/user/mo) |
 | 🎧 **Helios-Support** | Multi-channel unified ticket inbox, automated SLA escalation policies, public customer knowledge base CMS, unlimited support agents. | Zendesk, Freshdesk ($49–$99/agent/mo) |
 | ✍️ **TrustSign E-Signature** | Tamper-evident SHA-256 PDF signing, email OTP 2FA, drag-drop coordinate placement, immutable legal audit certificate with QR verification. | DocuSign, Adobe Sign ($40/user/mo) |
 
@@ -68,9 +107,16 @@ I am the **Founder & CEO of [The SCI SolCielo Innovacion Private Limited™](htt
 
 </div>
 
----
+</details>
 
-### 💼 Commercial Engineering Services
+<br />
+<img width="100%" src="./assets/glitch-divider.svg" alt="Divider" />
+<br />
+
+<!-- SESSION 03: COMMERCIAL ENGINEERING SERVICES -->
+<details>
+<summary><code><b>$ cat /etc/commercial-services.conf // BESPOKE ENGINEERING OFFERINGS</b></code></summary>
+<br />
 
 Through **The SCI SolCielo Innovacion Private Limited™**, we deliver bespoke enterprise software solutions:
 
@@ -79,17 +125,26 @@ Through **The SCI SolCielo Innovacion Private Limited™**, we deliver bespoke e
 - 📱 **Native Android App Development:** Offline-sync native Android applications built with Kotlin, Jetpack Compose, Room database, and Material 3 design principles.
 - 🔄 **Cross-Platform Engineering:** Unified 60fps applications for Android, iOS, and Web using Flutter / Dart and React Native.
 
----
+```
+CORPORATE DISPATCH COORDINATES:
+  Entity: The SCI SolCielo Innovacion Private Limited™
+  MCA Status: Active Private Limited Company (Incorporated Feb 2026)
+  MSME Status: Udyam Registered Entity (Registered 2024)
+  Office: B7/10, BlueOffice Workspace, 101, 1st Floor, Anantham Building,
+          Surendra Singh Compound, Kokar Chowk, Kokar, Ranchi, Jharkhand, India — 834001
+  Primary Contact: contact@thesci.co.in
+```
 
-### 📑 Architectural Whitepapers & Thought Leadership
+</details>
 
-- 📄 **[Why We Built Helios: Ending the $7,000/Month Per-Seat SaaS License Tax](https://thesci.co/blog/why-we-built-helios)** — An analysis of SaaS licensing drain and how compiled self-hosted infrastructure eliminates per-seat fees.
-- 📄 **[From cPanel to Helios: 90% Lower RAM, Zero License Fees, Same Power](https://thesci.co/blog/cpanel-to-helios-migration)** — Architectural comparison between legacy 2GB control panels and the ~15MB compiled Go core.
-- 📄 **[Data Sovereignty in 2026: Protecting IP with Self-Hosted Infrastructure](https://thesci.co/blog/self-hosting-data-sovereignty)** — Why modern enterprises are reclaiming sensitive payroll, sales deals, and contracts to private cloud instances.
+<br />
+<img width="100%" src="./assets/glitch-divider.svg" alt="Divider" />
+<br />
 
----
-
-## 🛠️ Tech Stack & Arsenal
+<!-- SESSION 04: TECH ARSENAL & WEAPONS MATRIX -->
+<details open>
+<summary><code><b>$ cat /dev/arsenal // CONFISCATED WEAPONS &amp; TECH STACK</b></code></summary>
+<br />
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=go,ts,js,react,nextjs,tailwind,nodejs,express,postgres,mongodb,mysql,supabase,firebase,ubuntu,docker,c,cpp,python,git,bash,linux" alt="Tech Stack Icons" />
@@ -97,18 +152,25 @@ Through **The SCI SolCielo Innovacion Private Limited™**, we deliver bespoke e
 
 <br />
 
-| Domain | Technologies & Frameworks |
+| Operational Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **Languages** | **Go (Golang)**, TypeScript, JavaScript (ESNext), Python, C / C++, SQL, Bash / Shell Scripting |
-| **Frontend & Web Architecture** | React.js (v18 / v19), Next.js (App Router), Tailwind CSS, Framer Motion, **HTMX**, HTML5, CSS3 |
+| **Compiled & Core Languages** | **Go (Golang)**, **TypeScript**, JavaScript (ESNext), Python, C / C++, SQL, Bash / Shell Scripting |
+| **Frontend & Web Architecture** | React.js (v18 / v19), **Next.js (App Router / SSG / SSR)**, Tailwind CSS, Framer Motion, **HTMX**, HTML5, CSS3 |
 | **Backend & Microservices** | **Go + Fiber v2**, Node.js, Express.js, RESTful APIs, WebSockets, Middleware Pipelines, Task Queues |
-| **Databases & Storage** | **MariaDB**, PostgreSQL, MongoDB, Supabase, Firebase Realtime Database / Firestore |
-| **DevOps & Cloud Infrastructure** | Ubuntu Linux VPS (Bare-Metal), **Caddy 2 (HTTP/3 & Auto TLS)**, **PowerDNS (MariaDB Native Backend)**, Postfix & Dovecot, PM2, Docker, UFW Firewall, CI/CD |
-| **Data Science & Analytics** | NumPy, Pandas, Predictive Modeling, Diagnostic Assessment Algorithms, Performance Telemetry |
+| **Databases & Sovereign Storage** | **MariaDB (InnoDB Engine)**, PostgreSQL, MongoDB, Supabase, Firebase Realtime Database / Firestore |
+| **DevOps & Cloud Infrastructure** | **Ubuntu Linux VPS (Bare-Metal Hardened)**, **Caddy 2 (HTTP/3 &amp; Auto TLS)**, **PowerDNS (MariaDB Backend)**, Postfix &amp; Dovecot, PM2, Docker, UFW Firewall, CI/CD |
+| **Data Science & Diagnostics** | NumPy, Pandas, Predictive Modeling, Diagnostic Assessment Algorithms, Weak-Area Clustering, Telemetry Pipelines |
 
----
+</details>
 
-## 🚀 Featured Platforms & Projects
+<br />
+<img width="100%" src="./assets/glitch-divider.svg" alt="Divider" />
+<br />
+
+<!-- SESSION 05: FEATURED PRODUCTION DEPLOYMENTS -->
+<details open>
+<summary><code><b>$ ls -la /deployments/production/ // FEATURED PRODUCTION ARTIFACTS</b></code></summary>
+<br />
 
 <table>
   <tr>
@@ -116,7 +178,7 @@ Through **The SCI SolCielo Innovacion Private Limited™**, we deliver bespoke e
       <h3 align="center">☁️ Helios Cloud Engine</h3>
       <p><b>Tech Stack:</b> <code>Go</code> <code>Fiber v2</code> <code>MariaDB</code> <code>Caddy 2</code> <code>PowerDNS</code> <code>Ubuntu VPS</code></p>
       <ul>
-        <li>Self-hosted compiled cloud hosting & server orchestration platform replacing cPanel/WHM.</li>
+        <li>Self-hosted compiled cloud hosting &amp; server orchestration platform replacing cPanel/WHM.</li>
         <li><b>~15 MB RAM idle footprint</b> — 90% lighter than legacy PHP/Perl control panels.</li>
         <li>Automated Zero-Touch SSL, native SQL DNS propagation, and Postfix/Dovecot mail cluster.</li>
       </ul>
@@ -139,7 +201,7 @@ Through **The SCI SolCielo Innovacion Private Limited™**, we deliver bespoke e
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">👥 Helios-HRMS & PeopleOS</h3>
+      <h3 align="center">👥 Helios-HRMS &amp; PeopleOS</h3>
       <p><b>Tech Stack:</b> <code>Go</code> <code>Fiber v2</code> <code>MariaDB</code> <code>RBAC</code> <code>Audit Ledger</code></p>
       <ul>
         <li>End-to-end workforce directory and employee lifecycle management suite.</li>
@@ -165,7 +227,7 @@ Through **The SCI SolCielo Innovacion Private Limited™**, we deliver bespoke e
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🎯 CBSEForum & BITSATForum</h3>
+      <h3 align="center">🎯 CBSEForum &amp; BITSATForum</h3>
       <p><b>Tech Stack:</b> <code>Next.js</code> <code>TypeScript</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Ubuntu VPS</code></p>
       <ul>
         <li>Centralized academic repository and online diagnostic testing engine for Classes 1–12.</li>
@@ -206,7 +268,7 @@ Through **The SCI SolCielo Innovacion Private Limited™**, we deliver bespoke e
       <h3 align="center">🌐 NM Foundation Dual Portals</h3>
       <p><b>Tech Stack:</b> <code>React.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Supabase</code></p>
       <ul>
-        <li>Customizable test simulation engine for JEE & NEET entrance examination aspirants.</li>
+        <li>Customizable test simulation engine for JEE &amp; NEET entrance examination aspirants.</li>
         <li>Separated Administrator CMS for question authoring and Student timed assessment portal.</li>
         <li>Real-time national percentile and predictive ranking projection engine.</li>
       </ul>
@@ -243,43 +305,108 @@ Through **The SCI SolCielo Innovacion Private Limited™**, we deliver bespoke e
   </tr>
 </table>
 
----
+</details>
 
-## 📊 GitHub Analytics & Telemetry
+<br />
+<img width="100%" src="./assets/glitch-divider.svg" alt="Divider" />
+<br />
 
+<!-- SESSION 06: PUBLISHED WHITEPAPERS -->
+<details>
+<summary><code><b>$ tail -n 20 /var/log/whitepapers.log // PUBLISHED ARCHITECTURE ESSAYS</b></code></summary>
+<br />
+
+- 📄 **[Why We Built Helios: Ending the $7,000/Month Per-Seat SaaS License Tax](https://thesci.co/blog/why-we-built-helios)** — Architectural analysis of SaaS licensing drain and how compiled Go self-hosted infrastructure eliminates per-seat fees.
+- 📄 **[From cPanel to Helios: 90% Lower RAM, Zero License Fees, Same Power](https://thesci.co/blog/cpanel-to-helios-migration)** — Benchmark comparison between legacy 2GB control panels and the ~15MB compiled Go core.
+- 📄 **[Data Sovereignty in 2026: Protecting IP with Self-Hosted Infrastructure](https://thesci.co/blog/self-hosting-data-sovereignty)** — Why modern enterprises are reclaiming sensitive payroll, sales deals, and legal documents to private cloud instances.
+
+</details>
+
+<br />
+<img width="100%" src="./assets/glitch-divider.svg" alt="Divider" />
+<br />
+
+<!-- SESSION 07: HUMANITARIAN MISSION & CRISIS AUDIT -->
+<details>
+<summary><code><b>$ cat /audit/humanitarian.log // CRISIS INTERVENTIONS &amp; COMMUNITY AUDIT</b></code></summary>
+<br />
+
+```
+[AUDITED HUMANITARIAN METRICS // 2022–2025]:
+  ├─ NSS Mega Blood Donation Drive ─────────── 500+ Units in 1 Day (Regional Hospital Network)
+  ├─ Village Education Program ─────────────── 300+ Students across 8 Remote Rural Hubs
+  └─ EPAC Campus Sustainability Presidency ── 100+ Active Advocates · 250+ Alumni Mentors
+```
+
+</details>
+
+<br />
+<img width="100%" src="./assets/glitch-divider.svg" alt="Divider" />
+<br />
+
+<!-- Live Terminal Typewriter Session -->
+<img width="100%" src="./assets/terminal-typewriter.svg" alt="Live Terminal Session Output" />
+
+<br />
+<br />
+
+<!-- GitHub Analytics & Telemetry -->
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shivamvishwanaath&theme=radical&hide_border=false" alt="GitHub Streak" />
+
+### 📊 TELEMETRY // GITHUB COMMIT STREAK
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=shivamvishwanaath&theme=radical&hide_border=false&background=0a0f1d&stroke=00ff41&ring=00ff41&fire=00f0ff&currStreakLabel=00ff41&sideLabels=00ff41&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e" alt="GitHub Streak" />
+
+<br />
+<br />
+
+### 🐍 CONTRIBUTION ACTIVITY GRAPH // SNAKE SENTINEL
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shivamvishwanaath/shivamvishwanaath/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shivamvishwanaath/shivamvishwanaath/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/shivamvishwanaath/shivamvishwanaath/output/github-snake.svg" />
+</picture>
+
 </div>
 
 <br />
+<img width="100%" src="./assets/glitch-divider.svg" alt="Divider" />
+<br />
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shivamvishwanaath/shivamvishwanaath/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shivamvishwanaath/shivamvishwanaath/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/shivamvishwanaath/shivamvishwanaath/output/github-snake.svg" />
-  </picture>
-</div>
-
----
-
-## 🤝 Let's Connect
-
+<!-- SECURE WIRE CONTACT TERMINAL -->
 <div align="center">
 
-Whether you want to discuss enterprise architecture, cloud infrastructure, tech leadership, or strategic software partnerships:
-
-[![Website](https://img.shields.io/badge/Portfolio-shivamvishwanaath.dev-0284c7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shivamvishwanaath.dev)
-[![The SCI India](https://img.shields.io/badge/The_SCI_(India)-thesci.co.in-dc2626?style=for-the-badge&logo=globe&logoColor=white)](https://thesci.co.in)
-[![Global SaaS](https://img.shields.io/badge/Global_SaaS-thesci.co-2563eb?style=for-the-badge&logo=cloud&logoColor=white)](https://thesci.co)
-[![Helios Panel](https://img.shields.io/badge/Helios_Panel-he.thesci.co-059669?style=for-the-badge&logo=server&logoColor=white)](https://he.thesci.co)
-[![Email](https://img.shields.io/badge/Email-shivam.strive%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shivam.strive@gmail.com)
-[![X](https://img.shields.io/badge/X-@svishwanaath-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/svishwanaath)
-[![GitHub](https://img.shields.io/badge/GitHub-shivamvishwanaath-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shivamvishwanaath)
-[![Instagram](https://img.shields.io/badge/Instagram-@shivamvishwanaath-e1306c?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/shivamvishwanaath/)
+```
+┌──[ SECURE WIRE // SHIVAM VISHWANAATH // VERIFIED CHANNELS ]─────────────────┐
+│                                                                             │
+│  PORTFOLIO ──── https://shivamvishwanaath.dev                              │
+│  CORPORATE ──── https://thesci.co.in (The SCI SolCielo Innovacion Pvt Ltd)  │
+│  GLOBAL    ──── https://thesci.co    (Global Cloud & SaaS Showcase)        │
+│  HELIOS    ──── https://he.thesci.co (Live Cloud Panel Console)            │
+│  DIRECT    ──── shivam.strive@gmail.com / contact@thesci.co.in             │
+│  SIGNALS   ──── X: @svishwanaath · Instagram: @shivamvishwanaath           │
+│  NODE      ──── Ranchi, Jharkhand / Bhubaneswar, Odisha / Remote Worldwide │
+│  STATUS    ──── Evaluating Technical Leadership & Architecture Roles       │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 <br />
 
-<sub>Designed & Architected by **Shivam Vishwanaath** · Founder & CEO at The SCI SolCielo Innovacion Private Limited™ · Ranchi, Jharkhand, India</sub>
+[![Website](https://img.shields.io/badge/PORTFOLIO-shivamvishwanaath.dev-0a0f1d?style=for-the-badge&logo=googlechrome&logoColor=00f0ff&labelColor=050811)](https://shivamvishwanaath.dev)
+[![The SCI India](https://img.shields.io/badge/THE_SCI_(INDIA)-thesci.co.in-0a0f1d?style=for-the-badge&logo=globe&logoColor=00ff41&labelColor=050811)](https://thesci.co.in)
+[![Global SaaS](https://img.shields.io/badge/GLOBAL_SAAS-thesci.co-0a0f1d?style=for-the-badge&logo=cloud&logoColor=38bdf8&labelColor=050811)](https://thesci.co)
+[![Helios Panel](https://img.shields.io/badge/HELIOS_PANEL-he.thesci.co-0a0f1d?style=for-the-badge&logo=server&logoColor=00ff41&labelColor=050811)](https://he.thesci.co)
+[![Email](https://img.shields.io/badge/DISPATCH-shivam.strive%40gmail.com-0a0f1d?style=for-the-badge&logo=gmail&logoColor=ea4335&labelColor=050811)](mailto:shivam.strive@gmail.com)
+[![X](https://img.shields.io/badge/X-@svishwanaath-0a0f1d?style=for-the-badge&logo=x&logoColor=ffffff&labelColor=050811)](https://x.com/svishwanaath)
+[![GitHub](https://img.shields.io/badge/GITHUB-shivamvishwanaath-0a0f1d?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=050811)](https://github.com/shivamvishwanaath)
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-@shivamvishwanaath-0a0f1d?style=for-the-badge&logo=instagram&logoColor=e4405f&labelColor=050811)](https://www.instagram.com/shivamvishwanaath/)
+
+<br />
+
+<sub><code>[session terminated]</code> · Architected by <b>Shivam Vishwanaath</b> · Founder &amp; CEO at The SCI SolCielo Innovacion Private Limited™ · Ranchi, Jharkhand, India</sub>
+<br />
+<sub><code>$ echo "Great software is invisible. When users are in flow — the code has done its job."</code></sub>
 
 </div>
