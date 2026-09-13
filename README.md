@@ -7,8 +7,8 @@
   <img width="100%" alt="Shivam Vishwanaath — Founder &amp; CEO · Systems Architect" src="./assets/header-matrix-rain.svg" />
 </picture>
 
-<!-- Dynamic Monospace Typing Ticker -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1200&color=00ff41&center=true&vCenter=true&width=800&lines=%3E+Founder+%26+CEO+%40+The+SCI+SolCielo+Innovacion+Private+Limited%E2%84%A2;%3E+Systems+Architect+%E2%80%A2+Bare-Metal+Cloud+%26+Compiled+Go+Core;%3E+Go+%E2%80%A2+Fiber+v2+%E2%80%A2+TypeScript+%E2%80%A2+Next.js+15+%E2%80%A2+MariaDB+%E2%80%A2+Caddy+2;%3E+Building+10x+Lower+TCO+Enterprise+Platforms+from+Eastern+India;%3E+Concurrent+Tech+Lead+%40+Trans+Ed+%E2%80%A2+EdTech+Architectures)](https://shivamvishwanaath.dev)
+<!-- Dynamic Monospace Typing Ticker (+25% Font Size: size=22) -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00ff41&center=true&vCenter=true&width=880&lines=%3E+Founder+%26+CEO+%40+The+SCI+SolCielo+Innovacion+Private+Limited%E2%84%A2;%3E+Systems+Architect+%E2%80%A2+Bare-Metal+Cloud+%26+Compiled+Go+Core;%3E+Go+%E2%80%A2+Fiber+v2+%E2%80%A2+TypeScript+%E2%80%A2+Next.js+15+%E2%80%A2+MariaDB+%E2%80%A2+Caddy+2;%3E+Building+10x+Lower+TCO+Enterprise+Platforms+from+Eastern+India;%3E+Concurrent+Tech+Lead+%40+Trans+Ed+%E2%80%A2+EdTech+Architectures)](https://shivamvishwanaath.dev)
 
 <p align="center">
   <a href="https://shivamvishwanaath.dev"><img src="https://img.shields.io/badge/PORTFOLIO-shivamvishwanaath.dev-0a0f1d?style=for-the-badge&logo=googlechrome&logoColor=00f0ff&labelColor=050811" alt="Portfolio" /></a>
@@ -39,7 +39,7 @@
 
 <!-- SESSION 01: EXECUTIVE SUMMARY & CREDENTIALS -->
 <details open>
-<summary><code><b>$ cat /proc/identity // EXECUTIVE PROFILE &amp; CREDENTIALS</b></code></summary>
+<summary><h3><code>$ cat /proc/identity // EXECUTIVE PROFILE &amp; CREDENTIALS</code></h3></summary>
 <br />
 
 ```yaml
@@ -76,7 +76,7 @@ I am the **Founder & CEO of [The SCI SolCielo Innovacion Private Limited™](htt
 
 <!-- SESSION 02: HELIOS ARCHITECTURE & 5 ENTERPRISE SUITES -->
 <details open>
-<summary><code><b>$ helios --inspect-architecture --topology // COMPILED ENTERPRISE PLATFORM</b></code></summary>
+<summary><h3><code>$ helios --inspect-architecture --topology // COMPILED ENTERPRISE PLATFORM</code></h3></summary>
 <br />
 
 <div align="center">
@@ -115,7 +115,7 @@ I am the **Founder & CEO of [The SCI SolCielo Innovacion Private Limited™](htt
 
 <!-- SESSION 03: COMMERCIAL ENGINEERING SERVICES -->
 <details>
-<summary><code><b>$ cat /etc/commercial-services.conf // BESPOKE ENGINEERING OFFERINGS</b></code></summary>
+<summary><h3><code>$ cat /etc/commercial-services.conf // BESPOKE ENGINEERING OFFERINGS</code></h3></summary>
 <br />
 
 Through **The SCI SolCielo Innovacion Private Limited™**, we deliver bespoke enterprise software solutions:
@@ -143,7 +143,7 @@ CORPORATE DISPATCH COORDINATES:
 
 <!-- SESSION 04: TECH ARSENAL & WEAPONS MATRIX -->
 <details open>
-<summary><code><b>$ cat /dev/arsenal // CONFISCATED WEAPONS &amp; TECH STACK</b></code></summary>
+<summary><h3><code>$ cat /dev/arsenal // CONFISCATED WEAPONS &amp; TECH STACK</code></h3></summary>
 <br />
 
 <div align="center">
@@ -169,7 +169,7 @@ CORPORATE DISPATCH COORDINATES:
 
 <!-- SESSION 05: FEATURED PRODUCTION DEPLOYMENTS -->
 <details open>
-<summary><code><b>$ ls -la /deployments/production/ // FEATURED PRODUCTION ARTIFACTS</b></code></summary>
+<summary><h3><code>$ ls -la /deployments/production/ // FEATURED PRODUCTION ARTIFACTS</code></h3></summary>
 <br />
 
 <table>
@@ -313,7 +313,7 @@ CORPORATE DISPATCH COORDINATES:
 
 <!-- SESSION 06: PUBLISHED WHITEPAPERS -->
 <details>
-<summary><code><b>$ tail -n 20 /var/log/whitepapers.log // PUBLISHED ARCHITECTURE ESSAYS</b></code></summary>
+<summary><h3><code>$ tail -n 20 /var/log/whitepapers.log // PUBLISHED ARCHITECTURE ESSAYS</code></h3></summary>
 <br />
 
 - 📄 **[Why We Built Helios: Ending the $7,000/Month Per-Seat SaaS License Tax](https://thesci.co/blog/why-we-built-helios)** — Architectural analysis of SaaS licensing drain and how compiled Go self-hosted infrastructure eliminates per-seat fees.
@@ -328,7 +328,7 @@ CORPORATE DISPATCH COORDINATES:
 
 <!-- SESSION 07: HUMANITARIAN MISSION & CRISIS AUDIT -->
 <details>
-<summary><code><b>$ cat /audit/humanitarian.log // CRISIS INTERVENTIONS &amp; COMMUNITY AUDIT</b></code></summary>
+<summary><h3><code>$ cat /audit/humanitarian.log // CRISIS INTERVENTIONS &amp; COMMUNITY AUDIT</code></h3></summary>
 <br />
 
 ```
